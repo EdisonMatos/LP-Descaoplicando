@@ -1,7 +1,7 @@
 import links from "./links";
 
-import logo from "../assets/imgs/logo/logo.webp";
-import solidLogo from "../assets/imgs/logo/solidLogo.webp";
+import logo from "../assets/imgs/logo/logo.png";
+import solidLogo from "../assets/imgs/logo/solidLogo.png";
 import bgHeroImg from "../assets/imgs/hero/bgHero.webp";
 
 import imgFeatures from "../assets/imgs/features/imgFeatures.webp";
@@ -51,13 +51,34 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "A Definir",
-      title: <h1 className="mb-[16px]">A Definir</h1>,
-      subtitle: "A Definir",
-      ctaButtonText: "A Definir",
+      miniTag: "ADESTRAMENTO E HOSPEDAGEM CANINA EM SÃO BERNARDO DO CAMPO - SP",
+      title: <h1 className="mb-[16px]">Seu cão feliz, você mais ainda.</h1>,
+      subtitle:
+        "Técnicas personalizadas para garantir obediência, respeito e uma conexão verdadeira, harmônica e saudável com seu pet.",
+      ctaButtonText: "Falar com um adestrador",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
       secondaryCta: "A Definir",
+      obsHero: {
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-map-pin text-primary"
+          >
+            <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" />
+            <circle cx="12" cy="10" r="3" />
+          </svg>
+        ),
+        text: "Atendimento em todo ABC e Grande SP",
+      },
       images: {
         background: bgHeroImg,
         static: {
