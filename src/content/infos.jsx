@@ -1,17 +1,16 @@
 const infos = {
-  name: "Arraial Melhor Só o Céu",
+  name: "A Definir",
   slogan: "",
-  phone: "(22) 99961-4246",
-  mail: "reservas@arraialmelhorsooceu.com.br",
+  phone: "(xx) xxxxx-xxxx",
+  mail: "contato@descaoplicando.com.br",
   footerInfos: {
-    endereco: <p>Arraial do Cabo - RJ</p>,
+    endereco: <p>A Definir</p>,
     expediente: (
       <p>
         Horário de expediente:
         <br />
         Segunda a Sexta-feira
-        <br />
-        Das 9h às 20h30
+        <br />A Definir
       </p>
     ),
     midSectionName: "Até mais! 😉",

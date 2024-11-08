@@ -11,7 +11,7 @@ const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
 
 export default function Faq() {
   return (
-    <div className="relative bg-bgSectionDark">
+    <div className="relative bg-[#03618C]">
       <SectionArea id="faq" className="">
         <MotionDivDownToUp className="w-full flex justify-center">
           <SectionHeader

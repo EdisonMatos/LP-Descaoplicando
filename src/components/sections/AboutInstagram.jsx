@@ -165,7 +165,7 @@ export default function AboutInstagram() {
               />
             </MotionDivDownToUp>
 
-            <MotionDivDownToUp>
+            {/* <MotionDivDownToUp>
               <Button
                 label="Siga nosso Twitter"
                 buttonLink={links.socialMedia.twitter}
@@ -186,7 +186,7 @@ export default function AboutInstagram() {
                   </svg>
                 }
               />
-            </MotionDivDownToUp>
+            </MotionDivDownToUp> */}
           </div>
 
           {/* Fim Botão de saiba mais abrindo modal */}

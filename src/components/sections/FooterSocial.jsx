@@ -14,8 +14,8 @@ const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
 function FooterSocial() {
   return (
     <footer
-      className=" full gap-y-[42px] font-secondFont text-left text-paragraph4 text-lighter flex flex-col py-[26px] phone3:py-[48px] justify-between items-center bg-cover bg-center bg-no-repeat"
-      style={{ backgroundImage: `url(${paralaxeFooter})` }}
+      className=" full gap-y-[42px] bg-darker font-secondFont text-left text-paragraph4 text-lighter flex flex-col py-[26px] phone3:py-[48px] justify-between items-center bg-cover bg-center bg-no-repeat"
+      // style={{ backgroundImage: `url(${paralaxeFooter})` }}
     >
       <div className=" w-[90%] max-w-[1215px] flex flex-col gap-y-[80px]  desktop1:flex-row desktop1:justify-between">
         <div className="flex flex-col gap-y-[16px] desktop1:w-[290px] text-paragraph3">
@@ -194,7 +194,7 @@ function FooterSocial() {
                     }
                   />
                 </a>
-                <a
+                {/* <a
                   href={links.socialMedia.twitter}
                   target="_blank"
                   aria-label="Link para o Twitter"
@@ -218,7 +218,7 @@ function FooterSocial() {
                       </svg>
                     }
                   />
-                </a>
+                </a> */}
                 {/* <a href={links.socialMedia.linkedin} target="_blank">
                   <IconButton
                     icon={
