@@ -7,7 +7,7 @@ import AccordionExpandDefault from "../interactives/AcordionTwo";
 import links from "../../content/links";
 import content from "../../content/content";
 
-const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
+const whatsappContactLink = `` + `${links.ctaWhatsapp}`;
 
 export default function Faq() {
   return (

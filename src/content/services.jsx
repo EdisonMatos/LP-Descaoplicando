@@ -73,7 +73,7 @@ import morePedServicesImg4 from "../assets/imgs/services/morePedServicesImg4.jpg
 
 import links from "./links";
 
-const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
+const whatsappContactLink = `` + `${links.ctaWhatsapp}`;
 
 const services = {
   main: {

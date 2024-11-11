@@ -6,7 +6,7 @@ import links from "../../content/links";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import content from "../../content/content";
 
-const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
+const whatsappContactLink = `` + `${links.ctaWhatsapp}`;
 
 export default function CtaMinimal() {
   return (

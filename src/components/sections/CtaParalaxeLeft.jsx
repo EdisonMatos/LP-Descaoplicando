@@ -5,7 +5,7 @@ import MotionDivUpToDown from "../animation/MotionDivUpToDown";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import Button from "../interactives/Button";
 
-const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
+const whatsappContactLink = `` + `${links.ctaWhatsapp}`;
 
 export default function CtaParalaxeLeft() {
   return (
