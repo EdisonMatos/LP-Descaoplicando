@@ -502,10 +502,11 @@ const content = {
     },
     cta: {
       backgroundImg: ctaWhatsappImgBg,
-      miniTag: "A Definir",
-      title: "A Definir",
-      subtitle: "A Definir",
-      ctaButtonText: "Fale Conosco no WhatsApp",
+      miniTag: "CONTATE AGORA",
+      title: "Pronto para transformar a vida do seu cão?",
+      subtitle:
+        "Entre em contato agora e comece a proporcionar uma rotina mais feliz, equilibrada e saudável para o seu pet com nossos serviços especializados!",
+      ctaButtonText: "Vamos criar uma vida mais feliz para seu pet",
     },
     testimonials: {
       miniTag: "FEEDBACKS REAIS",
