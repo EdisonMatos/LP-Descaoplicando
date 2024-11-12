@@ -10,7 +10,7 @@ import imgLaw from "../../assets/imgs/hero/lawHero.jpg";
 import SectionArea from "../sectionElements/SectionArea";
 import imgPoints from "../../assets/imgs/about/points.png";
 
-const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
+const whatsappContactLink = `` + `${links.ctaWhatsapp}`;
 
 export default function Hero() {
   return (

@@ -13,7 +13,7 @@ import "primereact/resources/themes/saga-blue/theme.css";
 import "primereact/resources/primereact.min.css";
 import "primeicons/primeicons.css";
 
-const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
+const whatsappContactLink = `` + `${links.ctaWhatsapp}`;
 
 export default function HeroBgImg() {
   const [visible, setVisible] = useState(false);
@@ -134,7 +134,7 @@ export default function HeroBgImg() {
 
   return (
     <div
-      className="w-full bg-right desktop1:bg-top bg-no-repeat bg-cover font-mainFont"
+      className="w-full bg-right bg-no-repeat bg-cover desktop1:bg-top font-mainFont"
       style={{
         backgroundImage: `url(${content.texts.hero.images.background})`,
       }}
@@ -160,7 +160,7 @@ export default function HeroBgImg() {
                 </div>
               </MotionDivDownToUp>
               <MotionDivDownToUp>
-                <div className="flex justify-center desktop1:justify-start text-center phone1:w-full font-secondFont text-paragraph4 phone3:text-paragraph5">
+                <div className="flex justify-center text-center desktop1:justify-start phone1:w-full font-secondFont text-paragraph4 phone3:text-paragraph5">
                   <p className="text-lighter mb-[32px] opacity-100 [text-shadow:_2px_2px_2px_rgb(0_0_0_/_50%)] desktop1:text-left">
                     {content.texts.hero.subtitle}
                   </p>
@@ -168,7 +168,7 @@ export default function HeroBgImg() {
               </MotionDivDownToUp>
               <div className="w-full phone2:w-full tablet2:w-auto">
                 <MotionDivDownToUp>
-                  <div className="flex justify-center desktop1:justify-start w-full">
+                  <div className="flex justify-center w-full desktop1:justify-start">
                     <Button
                       aria-label={content.texts.hero.ctaButtonAriaLabel}
                       label={content.texts.hero.ctaButtonText}

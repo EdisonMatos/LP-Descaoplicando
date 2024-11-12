@@ -6,7 +6,7 @@ import links from "../../content/links";
 import content from "../../content/content";
 import TeamMember from "../cards/TeamMember";
 
-const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
+const whatsappContactLink = `` + `${links.ctaWhatsapp}`;
 
 export default function Team() {
   return (

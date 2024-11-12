@@ -19,7 +19,7 @@ export default function AboutMockUpSocial() {
     setVisible(true);
   };
 
-  const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
+  const whatsappContactLink = `` + `${links.ctaWhatsapp}`;
 
   return (
     <SectionArea className="bg-quinary">

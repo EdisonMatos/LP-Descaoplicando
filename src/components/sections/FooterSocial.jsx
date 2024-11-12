@@ -9,7 +9,7 @@ import imgAppStore from "../../assets/imgs/hero/appStore.png";
 import imgGooglePlay from "../../assets/imgs/hero/googlePlay.png";
 import paralaxeFooter from "../../assets/imgs/footer/SectionFooter.webp";
 
-const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
+const whatsappContactLink = `` + `${links.ctaWhatsapp}`;
 
 function FooterSocial() {
   return (
@@ -88,7 +88,7 @@ function FooterSocial() {
                 <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" />
                 <circle cx="12" cy="10" r="3" />
               </svg>
-              <p>{infos.footerInfos.endereco}</p>
+              <p>{infos.footerInfos.expediente}</p>
             </div>
           </MotionDivDownToUp>
 
@@ -157,7 +157,7 @@ function FooterSocial() {
           {/* Ícones redes sociais */}
           <MotionDivDownToUp>
             <p className="opacity-90">Siga a gente nas redes sociais:</p>
-            <div className="opacity-90 mt-2">
+            <div className="mt-2 opacity-90">
               {" "}
               <div className="flex gap-[10px] items-center">
                 <a
