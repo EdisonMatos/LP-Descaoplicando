@@ -24,23 +24,18 @@ export default function HowItWorksImage() {
     <SectionArea className="" paddingTopAndBottom={false}>
       <SectionWrapper className="flex flex-col desktop1:flex-row-reverse gap-[40px] desktop1:gap-x-[60px] desktop2:gap-0 desktop1:justify-between">
         <MotionDivDownToUp className="w-[100%] desktop1:w-[415px] desktop2:w-[485px] flex justify-center">
-          {/* <div
+          <div
             style={{
-              backgroundImage: url(${imgHowItWorks}),
+              backgroundImage: `url(${content.texts.steps.imgSteps})`,
             }}
-            className="relative desktop1:bg-center bg-no-repeat bg-cover h-[450px] tablet1:h-[800px] desktop1:h-[467px] rounded-2xl"
+            className="shadow-custom-opacity shadow-darker/25 relative desktop1:bg-center bg-no-repeat bg-cover h-[450px] w-full tablet1:h-[800px] desktop1:h-[467px] rounded-xl"
           >
             <img
               alt="Imagem de efeito pontilhado"
               src={imgPoints}
-              className="absolute opacity-75 right-[-40px] top-[40px] phone1:right-[-10px] phone1:top-[20px] desktop1:right-[-40px] desktop1:top-[40px]"
+              className="absolute opacity-30 right-[-10px] top-[20px] desktop1:right-[-40px] desktop1:top-[40px]"
             ></img>
-          </div> */}
-          <img
-            src={content.texts.steps.imgSteps}
-            alt="Imagem de pessoa de férias em um passeio de barco em Arraial do Cabo"
-            className=""
-          />
+          </div>
         </MotionDivDownToUp>
         <div className="desktop1:w-[550px] desktop2:w-[570px]">
           <MotionDivDownToUp className="flex justify-center">
