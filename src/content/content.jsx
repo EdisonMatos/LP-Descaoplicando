@@ -52,7 +52,7 @@ const content = {
     },
     hero: {
       miniTag: "ADESTRAMENTO E HOSPEDAGEM CANINA EM SÃO BERNARDO DO CAMPO - SP",
-      title: <h1 className="mb-[16px]">Seu cão feliz, você mais ainda.</h1>,
+      title: <h1 className="mb-[16px]">Seu cão feliz, você mais ainda</h1>,
       subtitle:
         "Técnicas personalizadas para garantir obediência, respeito e uma conexão verdadeira, harmônica e saudável com seu pet.",
       ctaButtonText: "Falar com um adestrador",
@@ -151,14 +151,19 @@ const content = {
           img: aboutSocialImg,
           alt: "Foto Profissional",
         },
-        miniTag: "A Definir",
-        title: "A Definir",
+        miniTag: "FIQUE POR DENTRO",
+        title: "Siga a Descãoplicando nas redes sociais 🐾",
         subtitle: "",
         paragraph: (
           <p>
-            A Definir
+            Quer saber mais sobre como melhorar a rotina do seu cão? Siga a
+            Descãoplicando no Instagram!
             <br />
-            <br />A Definir
+            <br />
+            Fique por dentro das dicas, novidades e conteúdos sobre
+            comportamento canino, treinamentos e cuidados essenciais para a vida
+            do seu pet. Não perca a chance de proporcionar mais qualidade de
+            vida para o seu cãozinho! 🐶
           </p>
         ),
       },
@@ -532,25 +537,33 @@ const content = {
       },
     },
     faq: {
-      miniTag: "A Definir",
-      title: "A Definir",
-      subtitle: "A Definir",
+      miniTag: "TIRE SUAS DÚVIDAS",
+      title: "Perguntas Frequentes",
+      subtitle:
+        "Confira as perguntas abaixo para esclarecer suas dúvidas. Estamos aqui para ajudar!",
       questions: {
         question1: {
-          question: "A Definir",
-          answer: "A Definir",
+          question: "Como funciona o processo de treinamento para meu cão?",
+          answer:
+            "Nosso treinamento é personalizado, adaptado às necessidades de cada cão. Após uma avaliação inicial, montamos um plano de ação com atividades práticas para garantir que seu cão aprenda de forma eficaz e natural.",
         },
         question2: {
-          question: "A Definir",
-          answer: "A Definir",
+          question:
+            "Quais serviços vocês oferecem na escola e hotel para cães?",
+          answer:
+            "Oferecemos uma variedade de serviços, incluindo treinamento especializado, hospedagem com acompanhamento diário, e uma rotina estruturada com atividades físicas, sociais e de relaxamento.",
         },
         question3: {
-          question: "A Definir",
-          answer: "A Definir",
+          question:
+            "Como posso saber se meu cão está pronto para a hospedagem?",
+          answer:
+            "Para garantir que seu cão se adapte bem à nossa hospedagem, recomendamos uma avaliação prévia. Isso nos permite entender suas necessidades e ajustar a rotina para o máximo de conforto e segurança.",
         },
         question4: {
-          question: "A Definir",
-          answer: "A Definir",
+          question:
+            "Vocês atendem cães com necessidades especiais ou comportamentais?",
+          answer:
+            "Sim! Nossa abordagem personalizada é ideal para cães com necessidades comportamentais ou especiais. Trabalhamos com paciência e dedicação para ajudar cada cão a desenvolver habilidades e encontrar equilíbrio, independentemente de suas particularidades.",
         },
       },
     },
