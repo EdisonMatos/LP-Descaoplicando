@@ -41,13 +41,14 @@ export default function FeaturesWithIcons() {
               />
             </MotionDivDownToUp>
           </div>
-          <MotionDivDownToUp className="flex justify-center w-full">
-            <div className="justify-center hidden w-full desktop1:flex col2">
-              <img
-                src={content.texts.features.imgFeatures}
-                alt="Imagem ilustrativa da seção"
-              />
-            </div>
+          <MotionDivDownToUp className="w-full flex justify-center">
+            <div
+              className="hidden h-[640px] w-full desktop1:flex col2 rounded-2xl bg-top bg-cover shadow-custom-opacity shadow-primary"
+              style={{
+                backgroundImage: `url(${content.texts.features.imgFeatures})`,
+              }}
+            ></div>
+
           </MotionDivDownToUp>
           <div className="col3 ">
             <MotionDivDownToUp>

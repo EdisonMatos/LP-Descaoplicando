@@ -13,88 +13,80 @@ import Button from "../interactives/Button";
 import links from "../../content/links";
 import SectionHeader from "../sectionElements/SectionHeader";
 import imgPoints from "../../assets/imgs/about/points.png";
+import AboutFading from "../../components/sectionElements/AboutFading";
 
-export default function About() {
-  const [visible, setVisible] = useState(false);
-  const [modalContent, setModalContent] = useState("");
-  const [modalTitle, setModalTitle] = useState("");
+const whatsappContactLink = `${content.texts.links}`;
 
+export default function About({ modal }) {
   const onClick = () => {
-    setModalTitle("Sobre mim");
+    setModalTitle(abstractions.titleModal);
     setModalContent(
-      <p>
-        Creci: 11798/PE<br></br> Ensino Superior: Administração - Facape
-        <br></br>
-        <br></br> Olá, me chamo Rita Almeida, sou corretora de imóveis há mais
-        de 10 anos e sou formada em Administração há 30. Decidi entrar no ramo
-        quando um colega me fez um elogio: "Rita, você é tão comunicativa,
-        deveria ser corretora de imóveis." Eu ainda fiquei receosa: "Ah, isso
-        não é para mim," mas decidi arriscar. Fiz o curso quando minha filha
-        ainda era pequena e não me arrependo da decisão que tomei.<br></br>
-        <br></br> Com a minha formação em Administração, percebi rapidamente que
-        muitas das habilidades adquiridas durante o curso eram essenciais no
-        mercado imobiliário. A capacidade de negociar, organizar finanças e
-        entender os fundamentos econômicos são apenas algumas das competências
-        que me ajudaram a destacar-me na profissão.<br></br>
-        <br></br> Nos primeiros anos, equilibrar a vida pessoal com a
-        profissional foi um desafio, especialmente sendo mãe de uma criança
-        pequena. Contudo, sempre busquei manter um alto padrão de ética e
-        dedicação, o que me permitiu construir uma reputação sólida e uma base
-        de clientes fiéis.<br></br>
-        <br></br> Ao longo dos anos, vi muitas mudanças no setor imobiliário. A
-        tecnologia transformou a maneira como interagimos com clientes e como os
-        imóveis são apresentados e comercializados. Adaptar-me a essas mudanças
-        foi essencial, e sempre procurei estar atualizada, seja através de
-        cursos de formação continuada ou participando de seminários e workshops.
-        <br></br>
-        <br></br> Hoje, posso dizer que minha carreira é uma grande paixão. Cada
-        dia traz um novo desafio e a oportunidade de ajudar alguém a encontrar o
-        lugar ideal para chamar de lar. Continuo empregando as habilidades de
-        administração no meu dia a dia, gerenciando não apenas propriedades, mas
-        também sonhos e expectativas.
-      </p>
+      <div className="text-paragraph3">
+        <p className="mb-[20px]">{abstractions.subtitleModal}</p>
+        <p>{content.texts.about.modal}</p>
+        <p className="mb-[20px]">Quer saber mais sobre nós? Clique abaixo 👇</p>
+        <div>
+          <Button
+            aria-label={content.texts.about.ctaButtonAriaLabel}
+            label={content.texts.about.ctaButtonText}
+            buttonLink={whatsappContactLink}
+            animation={false}
+            className="hover:scale-105"
+            icon={<FaWhatsapp size={24} />}
+          />
+        </div>
+      </div>
     );
     setVisible(true);
   };
+  
 
   return (
     <SectionArea id="about" className="bg-bgSectionDark" paddingbot={false}>
       <SectionWrapper className="flex flex-col desktop1:flex-row-reverse gap-[40px] desktop1:gap-x-[40px] desktop2:gap-0 desktop1:justify-between">
         <MotionDivDownToUp className=" w-[100%] desktop1:w-[415px] desktop2:w-[485px] flex justify-center">
-          {/* <div
+          <div
             style={{
               backgroundImage: `url(${content.texts.about.imagem.img})`,
             }}
-            className="relative desktop1:bg-center bg-no-repeat bg-cover h-[450px] tablet1:h-[800px] desktop1:h-[467px] rounded-2xl"
+            className="shadow-custom-opacity shadow-darker/25 relative bg-center bg-no-repeat bg-cover h-[450px] w-full tablet1:h-[800px] desktop1:h-[467px] rounded-xl"
           >
             <img
               alt="Imagem de efeito pontilhado"
               src={imgPoints}
-              className="absolute opacity-75 phone1:right-[-10px] phone1:top-[20px] desktop1:right-[-40px] desktop1:top-[40px]"
+              className="absolute opacity-30 right-[-10px] top-[20px] desktop1:right-[-40px] desktop1:top-[40px]"
             ></img>
-          </div> */}
-          <img
-            src={content.texts.about.imagem.img}
-            alt="Imagem de uma praia de Arraial"
-            className=""
-          />
+          </div>
         </MotionDivDownToUp>
 
         <div className="desktop1:w-[550px] desktop2:w-[570px] ">
-          <MotionDivDownToUp>
-            <SectionHeader
-              className="text-center"
-              miniTitle={content.texts.about.miniTag}
-              sectionHeaderTitle={content.texts.about.title}
-              sectionHeaderSubtitle={content.texts.about.subtitle}
-              color=""
-              type="article"
-            />
-          </MotionDivDownToUp>
+          <SectionHeader
+            className="text-center"
+            miniTitle={content.texts.about.miniTag}
+            sectionHeaderTitle={content.texts.about.title}
+            sectionHeaderSubtitle={content.texts.about.subtitle}
+            color=""
+            type="article"
+          />
           <MotionDivDownToUp>
             <Paragraphs className="text-white text-opacity-80">
-              {content.texts.about.paragraph}
+              <AboutFading />
             </Paragraphs>
+            {/* Início Botão de saiba mais abrindo modal */}
+
+            {modal && (
+              <Button
+                className="mt-[48px]"
+                label={content.texts.about.buttonModalLabelAbout}
+                onClick={onClick}
+                removeAnchor={true}
+                removeTarget={true}
+                animation={true}
+                icon={<MoveRight />}
+              />
+            )}
+
+            {/* Fim Botão de saiba mais abrindo modal */}
           </MotionDivDownToUp>
 
           {/* Início Botões das redes sociais */}
@@ -104,7 +96,7 @@ export default function About() {
               <Button
                 label="Me siga no Instagram"
                 className="w-[75%]"
-                buttonLink={links.socialMedia.instagram}
+                buttonLink={content.texts.infos.instagramProfile}
                 textclassName="text-paragraph3"
                 size="small"
                 icon={
@@ -131,7 +123,7 @@ export default function About() {
               <Button
                 label="Me siga no Facebook"
                 className="w-[75%]"
-                buttonLink={links.socialMedia.facebook}
+                buttonLink{content.texts.infos.facebookProfile}
                 textclassName="text-paragraph3"
                 size="small"
                 icon={
@@ -156,7 +148,7 @@ export default function About() {
               <Button
                 label="Me siga no Linkedin"
                 className="w-[75%]"
-                buttonLink={links.socialMedia.linkedin}
+                buttonLink={content.texts.infos.linkedInProfile}
                 textclassName="text-paragraph3"
                 size="small"
                 icon={
@@ -182,35 +174,6 @@ export default function About() {
           </div> */}
 
           {/* Fim Botões das redes sociais */}
-
-          {/* Início Botão de saiba mais abrindo modal */}
-
-          {/* <MotionDivDownToUp>
-            <Button
-              className="mt-[48px]"
-              label="Continuar lendo"
-              onClick={onClick}
-              icon={
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  className="lucide lucide-move-right"
-                >
-                  <path d="M18 8L22 12L18 16" />
-                  <path d="M2 12H22" />
-                </svg>
-              }
-            />
-          </MotionDivDownToUp> */}
-
-          {/* Fim Botão de saiba mais abrindo modal */}
         </div>
       </SectionWrapper>
       {/* <Dialog
