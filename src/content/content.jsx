@@ -136,14 +136,19 @@ const content = {
         img: aboutImg1,
         alt: "imagem empty",
       },
-      miniTag: "A Definir",
-      title: "A Definir",
-      subtitle: "",
+      miniTag: "NOSSA TRAJETÓRIA",
+      title: "Quem somos?",
+      subtitle: "Um pouco mais sobre a Descãoplicando Escola e Hotel para Cães",
       paragraph: (
         <div>
-          A Definir
+          A Descãoplicando foi idealizada em 2021 por dois apaixonados por cães:
+          Rafael de Araújo, adestrador com 7 anos de experiência, e Thales Eloi,
+          engenheiro formado e tutor que encontrou no mundo canino uma forma de
+          proporcionar bem-estar e qualidade de vida para cães e suas famílias.
           <br />
-          <br />A Definir
+          <br />
+          Com uma abordagem única, unimos conhecimento técnico e empatia para
+          oferecer soluções eficazes e transformadoras no comportamento canino.
         </div>
       ),
       aboutSocial: {
