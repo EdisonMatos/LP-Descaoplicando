@@ -13,7 +13,7 @@ import Icon4 from "../../assets/imgs/icons/icon4.webp";
 export default function FeaturesWithIcons() {
   return (
     <SectionArea id="service" className="" paddingbot={false}>
-      <MotionDivDownToUp className="w-full flex justify-center">
+      <MotionDivDownToUp className="flex justify-center w-full">
         <SectionHeader
           className="text-center"
           miniTitle={content.texts.features.miniTag}
@@ -41,8 +41,8 @@ export default function FeaturesWithIcons() {
               />
             </MotionDivDownToUp>
           </div>
-          <MotionDivDownToUp className="w-full flex justify-center">
-            <div className="hidden desktop1:flex justify-center w-full col2">
+          <MotionDivDownToUp className="flex justify-center w-full">
+            <div className="justify-center hidden w-full desktop1:flex col2">
               <img
                 src={content.texts.features.imgFeatures}
                 alt="Imagem ilustrativa da seção"
@@ -69,7 +69,7 @@ export default function FeaturesWithIcons() {
         </div>
         <img
           src={content.texts.features.imgDivisor}
-          className="p-[84px]"
+          className="px-[24px] py-[70px] tablet1:p-[84px]"
           alt="Imagem de divisão em formato de onda"
         />
       </SectionWrapper>
