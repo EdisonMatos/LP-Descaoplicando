@@ -2,7 +2,8 @@ import links from "./links";
 
 import logo from "../assets/imgs/logo/logo.png";
 import solidLogo from "../assets/imgs/logo/solidLogo.png";
-import bgHeroImg from "../assets/imgs/hero/bgHero.webp";
+import bgHeroPc from "../assets/imgs/hero/bgHeroPc.jpg";
+import bgHeroMobile from "../assets/imgs/hero/bgHeroMobile.jpg";
 
 import imgFeatures from "../assets/imgs/features/imgFeatures.webp";
 import imgDivisor from "../assets/imgs/features/imgDivisor.webp";
@@ -52,7 +53,7 @@ const content = {
     },
     hero: {
       miniTag: "ADESTRAMENTO E HOSPEDAGEM CANINA EM SÃO BERNARDO DO CAMPO - SP",
-      title: <h1 className="mb-[16px]">Seu cão feliz, você mais ainda</h1>,
+      title: <h1 className="mb-[16px]">Seu cão em paz, você mais ainda</h1>,
       subtitle:
         "Técnicas personalizadas para garantir obediência, respeito e uma conexão verdadeira, harmônica e saudável com seu pet.",
       ctaButtonText: "Falar com um adestrador",
@@ -80,7 +81,8 @@ const content = {
         text: "Atendimento em todo ABC e Grande SP",
       },
       images: {
-        background: bgHeroImg,
+        backgroundMobile: bgHeroMobile,
+        backgroundPC: bgHeroPc,
         static: {
           img: {},
           alt: "",
