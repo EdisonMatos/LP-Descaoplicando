@@ -8,22 +8,28 @@ import { Dialog } from "primereact/dialog";
 import "primereact/resources/themes/saga-blue/theme.css";
 import "primereact/resources/primereact.min.css";
 import "primeicons/primeicons.css";
-import content from "../../content/content";
+import content, { abstractions } from "../../content/content";
 import Button from "../interactives/Button";
-import links from "../../content/links";
 import SectionHeader from "../sectionElements/SectionHeader";
 import imgPoints from "../../assets/imgs/about/points.png";
-import AboutFading from "../../components/sectionElements/AboutFading";
+import AboutFading from "../sectionElements/AboutFading";
+import { MoveRight } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa";
+import links from "../../content/links";
 
-const whatsappContactLink = `${content.texts.links}`;
+const whatsappContactLink = `` + `${links.ctaWhatsapp}`;
 
 export default function About({ modal }) {
+  const [visible, setVisible] = useState(false);
+  const [modalContent, setModalContent] = useState("");
+  const [modalTitle, setModalTitle] = useState("");
+
   const onClick = () => {
     setModalTitle(abstractions.titleModal);
     setModalContent(
-      <div className="text-paragraph3">
+      <p className="text-paragraph3">
         <p className="mb-[20px]">{abstractions.subtitleModal}</p>
-        <p>{content.texts.about.modal}</p>
+        {content.texts.about.modal}
         <p className="mb-[20px]">Quer saber mais sobre nós? Clique abaixo 👇</p>
         <div>
           <Button
@@ -35,14 +41,13 @@ export default function About({ modal }) {
             icon={<FaWhatsapp size={24} />}
           />
         </div>
-      </div>
+      </p>
     );
     setVisible(true);
   };
-  
 
   return (
-    <SectionArea id="about" className="bg-bgSectionDark" paddingbot={false}>
+    <SectionArea id="about" className="bg-bgSectionDark">
       <SectionWrapper className="flex flex-col desktop1:flex-row-reverse gap-[40px] desktop1:gap-x-[40px] desktop2:gap-0 desktop1:justify-between">
         <MotionDivDownToUp className=" w-[100%] desktop1:w-[415px] desktop2:w-[485px] flex justify-center">
           <div
@@ -57,6 +62,11 @@ export default function About({ modal }) {
               className="absolute opacity-30 right-[-10px] top-[20px] desktop1:right-[-40px] desktop1:top-[40px]"
             ></img>
           </div>
+          {/* <img
+            src={content.texts.about.imagem.img}
+            alt="Imagem de uma praia de Arraial"
+            className=""
+          /> */}
         </MotionDivDownToUp>
 
         <div className="desktop1:w-[550px] desktop2:w-[570px] ">
@@ -176,16 +186,16 @@ export default function About({ modal }) {
           {/* Fim Botões das redes sociais */}
         </div>
       </SectionWrapper>
-      {/* <Dialog
-        className=" font-secondFont"
+      <Dialog
+        className="font-secondFont"
         header={modalTitle}
         visible={visible}
         onHide={() => setVisible(false)}
         style={{ width: "50vw" }}
-        breakpoints={{ "960px": "75vw", "641px": "90vw" }}
+        breakpoints={{ "4000px": "60vw", "1024px": "70vw", "641px": "85vw" }}
       >
         <p className="m-0 ">{modalContent}</p>
-      </Dialog> */}
+      </Dialog>
     </SectionArea>
   );
 }

@@ -35,6 +35,7 @@ import imgTestimonial1 from "../assets/imgs/testimonials/testimonial1.webp";
 import imgTestimonial2 from "../assets/imgs/testimonials/testimonial2.webp";
 import imgTestimonial3 from "../assets/imgs/testimonials/testimonial3.webp";
 import imgTestimonial4 from "../assets/imgs/testimonials/testimonial4.webp";
+import TypewriterComponent from "../components/animation/TypeWriter";
 
 const content = {
   texts: {
@@ -53,7 +54,15 @@ const content = {
     },
     hero: {
       miniTag: "ADESTRAMENTO E HOSPEDAGEM CANINA EM SÃO BERNARDO DO CAMPO - SP",
-      title: <h1 className="mb-[16px]">Seu cão em paz, você mais ainda</h1>,
+      title: (
+        <h1 className="mb-[16px] desktop1:leading-[65px]">
+          Seu cão
+          <span className=""><TypewriterComponent strings={["em paz,", "feliz,", "calmo,"]} /></span> você
+          mais ainda
+        </h1>
+      ),
+
+
       subtitle:
         "Técnicas personalizadas para garantir obediência, respeito e uma conexão verdadeira, harmônica e saudável com seu pet.",
       ctaButtonText: "Falar com um adestrador",
@@ -153,6 +162,37 @@ const content = {
           oferecer soluções eficazes e transformadoras no comportamento canino.
         </div>
       ),
+      buttonModalLabelAbout: "Continuar lendo",
+      modal: (
+        <p>
+          A Definir
+          <br />
+          <br />
+          A Definir
+          <br />
+          <br />
+          <strong>A Definir</strong>
+          <br />
+          A Definir
+          <br />
+          <br />
+          <strong>A Definir</strong>
+          <br />
+          A Definir
+          <br />
+          <br />
+          <strong>A Definir</strong>
+          <br />
+          A Definir
+          <br />
+          <br />
+          A Definir
+          <br />
+          <br />
+        </p>
+      ),
+      ctaButtonAriaLabel: "Botão para entrar em contato",
+      ctaButtonText: "Entre em contato",
       aboutSocial: {
         img: {
           img: aboutSocialImg,
@@ -579,6 +619,11 @@ const content = {
       subtitle: "Subtítulo",
     },
   },
+};
+
+export const abstractions = {
+  titleModal: <strong>{content.texts.about.title}</strong>,
+  subtitleModal: <strong>{content.texts.about.subtitle}</strong>,
 };
 
 export default content;
