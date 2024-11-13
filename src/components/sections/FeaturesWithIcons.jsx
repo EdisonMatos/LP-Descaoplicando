@@ -29,7 +29,7 @@ export default function FeaturesWithIcons() {
         color="dark"
       />
       <SectionWrapper>
-        <div className="flex flex-col items-center justify-center tablet2:justify-evenly w-full tablet1:flex-row">
+        <div className="flex flex-col items-center justify-center tablet1:flex-row tablet2:justify-evenly w-full ">
           <div className="col1 desktop1:w-[28%] flex flex-col items-center">
             <MotionDivDownToUp>
               <IconFeatureCard
@@ -50,7 +50,7 @@ export default function FeaturesWithIcons() {
 
           <MotionDivDownToUp className="hidden desktop1:flex justify-around w-[40%]">
             <div
-              className="hidden desktop1:h-[730px] desktop2:h-[770px] w-full desktop1:flex col2 rounded-2xl bg-top bg-cover"
+              className="hidden desktop1:h-[700px] w-full desktop1:flex col2 rounded-2xl bg-top bg-cover shadow-custom-opacity shadow-primary"
               style={{
                 backgroundImage: `url(${content.texts.features.imgFeatures})`,
               }}
