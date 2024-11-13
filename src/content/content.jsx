@@ -57,11 +57,12 @@ const content = {
       title: (
         <h1 className="mb-[16px] desktop1:leading-[65px]">
           Seu cão
-          <span className=""><TypewriterComponent strings={["em paz,", "feliz,", "calmo,"]} /></span> você
-          mais ainda
+          <span className="">
+            <TypewriterComponent strings={["em paz,", "feliz,", "calmo,"]} />
+          </span>{" "}
+          você mais ainda
         </h1>
       ),
-
 
       subtitle:
         "Técnicas personalizadas para garantir obediência, respeito e uma conexão verdadeira, harmônica e saudável com seu pet.",
@@ -165,28 +166,52 @@ const content = {
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A Definir
+          A Descãoplicando foi idealizada em 2021 por dois apaixonados por cães:
+          Rafael de Araújo, adestrador com 7 anos de experiência, e Thales Eloi,
+          engenheiro formado e tutor que encontrou no mundo canino uma forma de
+          proporcionar bem-estar e qualidade de vida para cães e suas famílias.
           <br />
           <br />
-          A Definir
+          Com uma abordagem única, unimos conhecimento técnico e empatia para
+          oferecer soluções eficazes e transformadoras no comportamento canino.
           <br />
           <br />
-          <strong>A Definir</strong>
-          <br />
-          A Definir
-          <br />
-          <br />
-          <strong>A Definir</strong>
-          <br />
-          A Definir
-          <br />
-          <br />
-          <strong>A Definir</strong>
-          <br />
-          A Definir
+          Nossa missão é simples: proporcionar bem-estar, saúde emocional e
+          equilíbrio aos cães que passam pelo nosso espaço. Somos muito mais que
+          uma escola e hotel para cães; somos um centro especializado em
+          comportamento canino, onde respeitamos a natureza de cada animal e nos
+          dedicamos a atender suas necessidades individuais. Acreditamos que a
+          vida com um cão pode ser mais simples e gratificante quando há
+          compreensão mútua e respeito pelos limites de cada um.
           <br />
           <br />
-          A Definir
+          Rafael, idealizador da Descãoplicando, é adestrador desde 2015 e já
+          atendeu mais de 300 cães. Com especialização em comportamento canino,
+          ele aplica uma metodologia prática e acessível, projetada para ajudar
+          tutores a atenderem as necessidades de seus cães de maneira eficaz e
+          com qualidade. Além de formar novos profissionais no campo, ele
+          compartilha seu conhecimento para tornar a convivência entre cães e
+          tutores mais harmônica e satisfatória.
+          <br />
+          <br />
+          Thales, engenheiro e sócio de Rafael, trouxe sua paixão pelo
+          comportamento canino após ser cliente de Rafael e perceber os ótimos
+          resultados no treinamento de seu próprio cão. Ele se aprofundou no
+          assunto e, com seu conhecimento, oferece apoio administrativo e
+          atendimento especializado aos tutores, garantindo que cada cão receba
+          o cuidado que merece.
+          <br />
+          <br />
+          Na Descãoplicando, cada cão é tratado de forma única, com um
+          atendimento personalizado e sempre com foco no equilíbrio físico e
+          emocional. Nossos serviços de Escola, Hospedagem e Treinamento foram
+          planejados para oferecer uma rotina segura, divertida e enriquecedora.
+          O resultado é uma relação mais saudável, feliz e conectada entre cães
+          e seus tutores.
+          <br />
+          <br />
+          Junte-se a nós e descubra como uma rotina estruturada e respeitosa
+          pode transformar a vida do seu cão e de sua família.
           <br />
           <br />
         </p>
@@ -481,7 +506,7 @@ const content = {
       },
     },
     features: {
-      miniTag: "ROTINA EQUILIBRADA",
+      miniTag: "NOSSOS SERVIÇOS",
       title: "Proporcione o melhor para o seu amigo de quatro patas!",
       subtitle:
         "Hospede e adestre seu cão, criando uma experiência inesquecível para ele e para você!",
@@ -522,7 +547,7 @@ const content = {
     },
     steps: {
       miniTag: "ROTINA EQUILIBRADA",
-      title: "Como funciona o dia-a-dia do seu cão?",
+      title: "Como fornecer uma boa rotina para o seu cão?",
       subtitle: "empty",
       imgSteps: imgSteps,
       cards: {
