@@ -134,24 +134,29 @@ export default function HeroBgImg() {
 
   return (
     <div
-      className="w-full bg-right bg-no-repeat bg-cover desktop1:bg-top font-mainFont"
+      className="w-full bg-center bg-no-repeat bg-cover desktop1:bg-right-top font-mainFont"
       style={{
-        backgroundImage: `url(${content.texts.hero.images.background})`,
+        // backgroundImage: `url(${content.texts.hero.images.background})`,
+        backgroundImage: `url(${
+          window.innerWidth < 1023
+            ? content.texts.hero.images.backgroundMobile
+            : content.texts.hero.images.backgroundPC
+        })`,
       }}
       id="home"
     >
-      <div className="relative z-10 flex w-full bg-black bg-opacity-40 desktop2:bg-opacity-40 items-left">
+      <div className="relative z-10 flex w-full bg-black bg-opacity-50 desktop2:bg-opacity-50 items-left">
         <div className="w-full text-secondary justify-evenly">
           <div className="h-[125px] desktop3:h-[140px]" />
           <div className="flex flex-col mx-auto w-[90%] max-w-[1215px] items-center desktop1:items-start pt-[46px] pb-[50px] desktop1:pt-[120px] desktop1:pb-[120px]">
-            <div className=" flex flex-col w-full desktop1:w-[45%] desktop1:mr-[20px] ">
-              <MotionDivDownToUp>
-                <div className="w-auto text-center desktop1:text-left font-secondFont phone1:text-paragraph4">
+            <div className=" flex flex-col w-full desktop1:w-[45%] desktop1:mr-[20px] mt-[200px] tablet1:mt-[400px] desktop1:mt-0">
+              {/* <MotionDivDownToUp>
+                <div className="w-auto text-center desktop1:text-left font-secondFont phone1:text-paragraph4 ">
                   <p className="mb-[16px] bg-primary bg-opacity-20 text-lighter rounded-2xl px-[16px] py-[6px] inline-block text-paragraph2">
                     {content.texts.hero.miniTag}
                   </p>
                 </div>
-              </MotionDivDownToUp>
+              </MotionDivDownToUp> */}
               <MotionDivDownToUp>
                 <div className="text-lighter flex justify-center tablet1:justify-center desktop1:justify-start font-bold leading-[36px] phone3:leading-[40px] tablet1:leading-[60px] desktop1:leading-[60px] text-center text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title7">
                   <h1 className="[text-shadow:_2px_3px_0_rgb(0_0_0_/_50%)] desktop1:text-left">
@@ -262,7 +267,7 @@ export default function HeroBgImg() {
           </div>
         </div>
       </div>
-      <div className="bg-black bg-opacity-40 desktop2:bg-opacity-40">
+      <div className="bg-black bg-opacity-50 desktop2:bg-opacity-50">
         <div class="custom-shape-divider-bottom-1722451194 ">
           <svg
             data-name="Layer 1"
