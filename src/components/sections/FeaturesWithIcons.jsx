@@ -29,7 +29,7 @@ export default function FeaturesWithIcons() {
         color="dark"
       />
       <SectionWrapper>
-        <div className="flex flex-col items-center justify-center tablet1:flex-row tablet2:justify-evenly w-full ">
+        <div className="flex flex-col items-center justify-center w-full tablet1:flex-row tablet2:justify-evenly ">
           <div className="col1 desktop1:w-[28%] flex flex-col items-center">
             <MotionDivDownToUp>
               <IconFeatureCard
@@ -50,7 +50,7 @@ export default function FeaturesWithIcons() {
 
           <MotionDivDownToUp className="hidden desktop1:flex justify-around w-[32%]">
             <div
-              className="hidden desktop1:h-[700px] w-full desktop1:flex col2 rounded-2xl bg-top bg-cover shadow-custom-opacity shadow-primary"
+              className="hidden desktop1:h-[700px] w-full desktop1:flex col2 rounded-2xl bg-top bg-cover shadow-custom-opacity shadow-secondary/10"
               style={{
                 backgroundImage: `url(${content.texts.features.imgFeatures})`,
               }}
@@ -63,7 +63,7 @@ export default function FeaturesWithIcons() {
             </div>
           </MotionDivDownToUp>
           <div className="col3 desktop1:w-[28%] flex flex-col items-center">
-            <MotionDivDownToUp className=" flex items-center w-full ">
+            <MotionDivDownToUp className="flex items-center w-full ">
               <IconFeatureCard
                 icon={<img src={Icon3} alt="" />}
                 title={content.texts.features.card3.title}
@@ -71,7 +71,7 @@ export default function FeaturesWithIcons() {
                 className="tablet1:mb-[26px] desktop1:mb-0 desktop2:mb-[46px]"
               />
             </MotionDivDownToUp>
-            <MotionDivDownToUp className=" flex flex-col items-center w-full ">
+            <MotionDivDownToUp className="flex flex-col items-center w-full ">
               <IconFeatureCard
                 icon={<img src={Icon4} alt="" />}
                 title={content.texts.features.card4.title}

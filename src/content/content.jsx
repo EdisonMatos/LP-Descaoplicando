@@ -56,10 +56,10 @@ const content = {
       miniTag: "ADESTRAMENTO E HOSPEDAGEM CANINA EM SÃO BERNARDO DO CAMPO - SP",
       title: (
         <h1 className="mb-[16px] desktop1:leading-[65px]">
-          Seu cão
           <span className="">
+            Seu cão
             <TypewriterComponent strings={["em paz,", "feliz,", "calmo,"]} />
-          </span>{" "}
+          </span>
           você mais ainda
         </h1>
       ),
