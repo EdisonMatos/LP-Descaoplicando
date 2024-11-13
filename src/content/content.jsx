@@ -146,6 +146,37 @@ const content = {
           <br />A Definir
         </div>
       ),
+      buttonModalLabelAbout: "Continuar lendo",
+      modal: (
+        <p>
+          A Definir
+          <br />
+          <br />
+          A Definir
+          <br />
+          <br />
+          <strong>A Definir</strong>
+          <br />
+          A Definir
+          <br />
+          <br />
+          <strong>A Definir</strong>
+          <br />
+          A Definir
+          <br />
+          <br />
+          <strong>A Definir</strong>
+          <br />
+          A Definir
+          <br />
+          <br />
+          A Definir
+          <br />
+          <br />
+        </p>
+      ),
+      ctaButtonAriaLabel: "Botão para entrar em contato",
+      ctaButtonText: "Entre em contato",
       aboutSocial: {
         img: {
           img: aboutSocialImg,
@@ -572,6 +603,11 @@ const content = {
       subtitle: "Subtítulo",
     },
   },
+};
+
+export const abstractions = {
+  titleModal: <strong>{content.texts.about.title}</strong>,
+  subtitleModal: <strong>{content.texts.about.subtitle}</strong>,
 };
 
 export default content;
