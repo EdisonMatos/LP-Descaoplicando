@@ -1,10 +1,18 @@
-import FeatureImgOnBgCard from "../cards/FeatureImgOnBgCard";
+import React, { useState } from "react";
+import { Dialog } from "primereact/dialog";
+import "primereact/resources/primereact.min.css";
+import "primeicons/primeicons.css";
 import SectionArea from "../sectionElements/SectionArea";
 import SectionHeader from "../sectionElements/SectionHeader";
 import SectionWrapper from "../sectionElements/SectionWrapper";
 import content from "../../content/content";
 import IconFeatureCard from "../cards/IconFeatureCard";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
+import ServicesModal from "./ServicesModal";
+// import Icon1 from "../../assets/imgs/icons/icon1.png";
+// import Icon2 from "../../assets/imgs/icons/icon2.png";
+// import Icon3 from "../../assets/imgs/icons/icon3.png";
+// import Icon4 from "../../assets/imgs/icons/icon4.png";
 import Icon1 from "../../assets/imgs/icons/icon1.webp";
 import Icon2 from "../../assets/imgs/icons/icon2.webp";
 import Icon3 from "../../assets/imgs/icons/icon3.webp";
@@ -12,25 +20,23 @@ import Icon4 from "../../assets/imgs/icons/icon4.webp";
 
 export default function FeaturesWithIcons() {
   return (
-    <SectionArea id="service" className="" paddingbot={false}>
-      <MotionDivDownToUp className="flex justify-center w-full">
-        <SectionHeader
-          className="text-center"
-          miniTitle={content.texts.features.miniTag}
-          sectionHeaderTitle={content.texts.features.title}
-          sectionHeaderSubtitle={content.texts.features.subtitle}
-          color="dark"
-        />
-      </MotionDivDownToUp>
+    <SectionArea id="service" className="squares">
+      <SectionHeader
+        className="text-center"
+        miniTitle={content.texts.features.miniTag}
+        sectionHeaderTitle={content.texts.features.title}
+        sectionHeaderSubtitle={content.texts.features.subtitle}
+        color="dark"
+      />
       <SectionWrapper>
-        <div className="flex flex-col items-center justify-between w-full tablet1:flex-row">
-          <div className="col1">
+        <div className="flex flex-col items-center justify-center tablet2:justify-evenly w-full tablet1:flex-row">
+          <div className="col1 desktop1:w-[28%] flex flex-col items-center">
             <MotionDivDownToUp>
               <IconFeatureCard
                 icon={<img src={Icon1} alt="" />}
                 title={content.texts.features.card1.title}
                 paragraph={content.texts.features.card1.subtitle}
-                className="tablet1:mb-[46px]"
+                className="tablet1:mb-[26px] desktop1:mb-0 desktop2:mb-[46px]"
               />
             </MotionDivDownToUp>
             <MotionDivDownToUp>
@@ -41,38 +47,41 @@ export default function FeaturesWithIcons() {
               />
             </MotionDivDownToUp>
           </div>
-          <MotionDivDownToUp className="w-full flex justify-center">
+
+          <MotionDivDownToUp className="hidden desktop1:flex justify-around w-[40%]">
             <div
-              className="hidden h-[640px] w-full desktop1:flex col2 rounded-2xl bg-top bg-cover shadow-custom-opacity shadow-primary"
+              className="hidden desktop1:h-[730px] desktop2:h-[770px] w-full desktop1:flex col2 rounded-2xl bg-top bg-cover"
               style={{
                 backgroundImage: `url(${content.texts.features.imgFeatures})`,
               }}
-            ></div>
-
+            >
+              {/* <img
+              src={content.texts.features.imgFeatures}
+              alt="Imagem ilustrativa da seção"
+              className="rounded-2xl"
+            /> */}
+            </div>
           </MotionDivDownToUp>
-          <div className="col3 ">
-            <MotionDivDownToUp>
+          <div className="col3 desktop1:w-[28%] flex flex-col items-center">
+            <MotionDivDownToUp className=" flex items-center w-full ">
               <IconFeatureCard
                 icon={<img src={Icon3} alt="" />}
                 title={content.texts.features.card3.title}
                 paragraph={content.texts.features.card3.subtitle}
-                className="tablet1:mb-[46px]"
+                className="tablet1:mb-[26px] desktop1:mb-0 desktop2:mb-[46px]"
               />
             </MotionDivDownToUp>
-            <MotionDivDownToUp>
+            <MotionDivDownToUp className=" flex flex-col items-center w-full ">
               <IconFeatureCard
                 icon={<img src={Icon4} alt="" />}
                 title={content.texts.features.card4.title}
                 paragraph={content.texts.features.card4.subtitle}
-              />
+              >
+                <ServicesModal />
+              </IconFeatureCard>
             </MotionDivDownToUp>
           </div>
         </div>
-        <img
-          src={content.texts.features.imgDivisor}
-          className="px-[24px] py-[70px] tablet1:p-[84px]"
-          alt="Imagem de divisão em formato de onda"
-        />
       </SectionWrapper>
     </SectionArea>
   );
