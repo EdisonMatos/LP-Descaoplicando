@@ -206,7 +206,7 @@ export default function HeroBgImg() {
                 <div className="flex justify-center desktop1:justify-start mt-[32px]">
                   <div className="flex items-center">
                     {content.texts.hero.obsHero.icon}
-                    <p className="text-white opacity-80 ml-[10px] text-center">
+                    <p className="text-white opacity-80 ml-[10px] text-center [text-shadow:_2px_2px_2px_rgb(0_0_0_/_50%)]">
                       {content.texts.hero.obsHero.text}
                     </p>
                   </div>
