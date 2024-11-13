@@ -40,11 +40,11 @@ const content = {
     navbar: {
       logo: {
         img: logo,
-        alt: "Logomarca Arraial Melhor Só o Céu",
+        alt: "Logomarca",
       },
       solidLogo: {
         img: solidLogo,
-        alt: "Logomarca Arraial Melhor Só o Céu",
+        alt: "Logomarca",
       },
       menuItems: ["Início", "Serviços", "Quem somos", "Perguntas Frequentes"],
       ctaButtonText: "Contato",

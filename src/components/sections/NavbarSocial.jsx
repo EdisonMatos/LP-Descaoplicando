@@ -97,7 +97,7 @@ export default function NavbarSocial() {
         <Navbar>
           <ScrollLink
             to="home"
-            className="cursor-pointer"
+            className="flex items-center cursor-pointer"
             spy={true}
             smooth={true}
             duration={500}
@@ -109,10 +109,19 @@ export default function NavbarSocial() {
               alt={content.texts.navbar.logo.alt}
               className={`${
                 scrolling
-                  ? "w-[50%] max-w-[50%] tablet2:w-[40%] tablet2:max-w-[40%] desktop1:w-[60%] desktop1:max-w-[60%] transition-all duration-1000 "
+                  ? "w-[50%] max-w-[50%] tablet2:w-[40%] tablet2:max-w-[40%] desktop1:w-[60%] desktop1:max-w-[20%] transition-all duration-1000 "
                   : "my-[20px] w-[70%] tablet1:w-[60%] tablet2:w-[50%] desktop1:w-[70%] desktop2:w-[100%] transition-all duration-1000 "
               } tablet3:mb-0`}
             />
+            <div
+              className={`${
+                scrolling
+                  ? "text-secondary text-title1"
+                  : "text-white text-title4"
+              } transition-all duration-1000 ml-[22px] h-auto`}
+            >
+              <h1 className="font-bold">DESCÃOPLICANDO</h1>
+            </div>
           </ScrollLink>
           <div className="flex items-center justify-between gap-[16px]">
             <div
