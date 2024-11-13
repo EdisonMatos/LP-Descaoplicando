@@ -34,6 +34,7 @@ import imgTestimonial1 from "../assets/imgs/testimonials/testimonial1.webp";
 import imgTestimonial2 from "../assets/imgs/testimonials/testimonial2.webp";
 import imgTestimonial3 from "../assets/imgs/testimonials/testimonial3.webp";
 import imgTestimonial4 from "../assets/imgs/testimonials/testimonial4.webp";
+import TypewriterComponent from "../components/animation/TypeWriter";
 
 const content = {
   texts: {
@@ -52,7 +53,14 @@ const content = {
     },
     hero: {
       miniTag: "ADESTRAMENTO E HOSPEDAGEM CANINA EM SÃO BERNARDO DO CAMPO - SP",
-      title: <h1 className="mb-[16px]">Seu cão feliz, você mais ainda</h1>,
+      title: (
+        <h1 className="mb-[16px] desktop1:leading-[65px]">
+          Seu cão
+          <span className=""><TypewriterComponent strings={["em paz,", "feliz,", "calmo,"]} /></span> você
+          mais ainda
+        </h1>
+      ),
+
       subtitle:
         "Técnicas personalizadas para garantir obediência, respeito e uma conexão verdadeira, harmônica e saudável com seu pet.",
       ctaButtonText: "Falar com um adestrador",
