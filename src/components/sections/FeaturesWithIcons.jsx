@@ -20,7 +20,7 @@ import Icon4 from "../../assets/imgs/icons/icon4.webp";
 
 export default function FeaturesWithIcons() {
   return (
-    <SectionArea id="service" className="squares">
+    <SectionArea id="service">
       <SectionHeader
         className="text-center"
         miniTitle={content.texts.features.miniTag}
@@ -48,7 +48,7 @@ export default function FeaturesWithIcons() {
             </MotionDivDownToUp>
           </div>
 
-          <MotionDivDownToUp className="hidden desktop1:flex justify-around w-[40%]">
+          <MotionDivDownToUp className="hidden desktop1:flex justify-around w-[32%]">
             <div
               className="hidden desktop1:h-[700px] w-full desktop1:flex col2 rounded-2xl bg-top bg-cover shadow-custom-opacity shadow-primary"
               style={{
