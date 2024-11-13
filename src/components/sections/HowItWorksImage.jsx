@@ -28,7 +28,7 @@ export default function HowItWorksImage() {
             style={{
               backgroundImage: `url(${content.texts.steps.imgSteps})`,
             }}
-            className="shadow-custom-opacity shadow-darker/25 relative desktop1:bg-center bg-no-repeat bg-cover h-[450px] w-full tablet1:h-[800px] desktop1:h-[467px] rounded-xl"
+            className="shadow-custom-opacity shadow-secondary/10 relative desktop1:bg-center bg-no-repeat bg-cover h-[450px] w-full tablet1:h-[800px] desktop1:h-[467px] rounded-xl"
           >
             <img
               alt="Imagem de efeito pontilhado"
