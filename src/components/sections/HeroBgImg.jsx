@@ -150,15 +150,15 @@ export default function HeroBgImg() {
           <div className="h-[125px] desktop3:h-[140px]" />
           <div className="flex flex-col mx-auto w-[90%] max-w-[1215px] items-center desktop1:items-start pt-[46px] pb-[50px] desktop1:pt-[120px] desktop1:pb-[120px]">
             <div className=" flex flex-col w-full desktop1:w-[45%] desktop1:mr-[20px] mt-[200px] tablet1:mt-[400px] desktop1:mt-0">
-              {/* <MotionDivDownToUp>
-                <div className="w-auto text-center desktop1:text-left font-secondFont phone1:text-paragraph4 ">
-                  <p className="mb-[16px] bg-primary bg-opacity-20 text-lighter rounded-2xl px-[16px] py-[6px] inline-block text-paragraph2">
+              <MotionDivDownToUp>
+                <div className="hidden w-auto text-center desktop1:flex desktop1:text-left font-secondFont phone1:text-paragraph4 ">
+                  <p className="mb-[16px] bg-black bg-opacity-30 text-lighter rounded-2xl px-[16px] py-[6px] inline-block text-paragraph2">
                     {content.texts.hero.miniTag}
                   </p>
                 </div>
-              </MotionDivDownToUp> */}
+              </MotionDivDownToUp>
               <MotionDivDownToUp>
-                <div className="text-lighter flex justify-center tablet1:justify-center desktop1:justify-start font-bold leading-[36px] phone3:leading-[40px] tablet1:leading-[60px] desktop1:leading-[60px] text-center text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title7">
+                <div className="text-lighter flex justify-center tablet1:justify-center desktop1:justify-start font-bold leading-[42px] phone3:leading-[45px] tablet1:leading-[65px] desktop1:leading-[65px] text-center text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title7">
                   <h1 className="[text-shadow:_2px_3px_0_rgb(0_0_0_/_50%)] desktop1:text-left">
                     {content.texts.hero.title}
                   </h1>
