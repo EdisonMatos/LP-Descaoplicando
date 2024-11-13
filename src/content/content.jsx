@@ -2,7 +2,8 @@ import links from "./links";
 
 import logo from "../assets/imgs/logo/logo.png";
 import solidLogo from "../assets/imgs/logo/solidLogo.png";
-import bgHeroImg from "../assets/imgs/hero/bgHero.webp";
+import bgHeroPc from "../assets/imgs/hero/bgHeroPc.jpg";
+import bgHeroMobile from "../assets/imgs/hero/bgHeroMobile.jpg";
 
 import imgFeatures from "../assets/imgs/features/imgFeatures.webp";
 import imgDivisor from "../assets/imgs/features/imgDivisor.webp";
@@ -40,11 +41,11 @@ const content = {
     navbar: {
       logo: {
         img: logo,
-        alt: "Logomarca Arraial Melhor Só o Céu",
+        alt: "Logomarca",
       },
       solidLogo: {
         img: solidLogo,
-        alt: "Logomarca Arraial Melhor Só o Céu",
+        alt: "Logomarca",
       },
       menuItems: ["Início", "Serviços", "Quem somos", "Perguntas Frequentes"],
       ctaButtonText: "Contato",
@@ -52,7 +53,7 @@ const content = {
     },
     hero: {
       miniTag: "ADESTRAMENTO E HOSPEDAGEM CANINA EM SÃO BERNARDO DO CAMPO - SP",
-      title: <h1 className="mb-[16px]">Seu cão feliz, você mais ainda</h1>,
+      title: <h1 className="mb-[16px]">Seu cão em paz, você mais ainda</h1>,
       subtitle:
         "Técnicas personalizadas para garantir obediência, respeito e uma conexão verdadeira, harmônica e saudável com seu pet.",
       ctaButtonText: "Falar com um adestrador",
@@ -80,7 +81,8 @@ const content = {
         text: "Atendimento em todo ABC e Grande SP",
       },
       images: {
-        background: bgHeroImg,
+        backgroundMobile: bgHeroMobile,
+        backgroundPC: bgHeroPc,
         static: {
           img: {},
           alt: "",
@@ -136,14 +138,19 @@ const content = {
         img: aboutImg1,
         alt: "imagem empty",
       },
-      miniTag: "A Definir",
-      title: "A Definir",
-      subtitle: "",
+      miniTag: "NOSSA TRAJETÓRIA",
+      title: "Quem somos?",
+      subtitle: "Um pouco mais sobre a Descãoplicando Escola e Hotel para Cães",
       paragraph: (
         <div>
-          A Definir
+          A Descãoplicando foi idealizada em 2021 por dois apaixonados por cães:
+          Rafael de Araújo, adestrador com 7 anos de experiência, e Thales Eloi,
+          engenheiro formado e tutor que encontrou no mundo canino uma forma de
+          proporcionar bem-estar e qualidade de vida para cães e suas famílias.
           <br />
-          <br />A Definir
+          <br />
+          Com uma abordagem única, unimos conhecimento técnico e empatia para
+          oferecer soluções eficazes e transformadoras no comportamento canino.
         </div>
       ),
       aboutSocial: {
