@@ -62,11 +62,6 @@ export default function About({ modal }) {
               className="absolute opacity-30 right-[-10px] top-[20px] desktop1:right-[-40px] desktop1:top-[40px]"
             ></img>
           </div>
-          {/* <img
-            src={content.texts.about.imagem.img}
-            alt="Imagem de uma praia de Arraial"
-            className=""
-          /> */}
         </MotionDivDownToUp>
 
         <div className="desktop1:w-[550px] desktop2:w-[570px] ">
