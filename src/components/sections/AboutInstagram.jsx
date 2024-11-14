@@ -28,11 +28,7 @@ export default function AboutInstagram() {
             src={imgPhone}
             className="desktop1:bg-center bg-no-repeat bg-cover h-[450px] tablet1:h-[800px] desktop1:h-[760px] rounded-2xl"
           ></img> */}
-          <img
-            src={imgPhone}
-            alt="Imagem de uma praia de Arraial"
-            className=""
-          />
+          <img src={imgPhone} alt="Perfil do Instagram" className="" />
         </MotionDivDownToUp>
         <div className="desktop1:w-[550px] desktop2:w-[570px]">
           <MotionDivDownToUp>

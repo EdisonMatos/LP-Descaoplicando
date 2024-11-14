@@ -224,7 +224,7 @@ const content = {
           alt: "Foto Profissional",
         },
         miniTag: "FIQUE POR DENTRO",
-        title: "Siga a Descãoplicando nas redes sociais 🐾",
+        title: "Siga a Descãoplicando nas redes sociais 🐶",
         subtitle: "",
         paragraph: (
           <p>
@@ -235,7 +235,7 @@ const content = {
             Fique por dentro das dicas, novidades e conteúdos sobre
             comportamento canino, treinamentos e cuidados essenciais para a vida
             do seu pet. Não perca a chance de proporcionar mais qualidade de
-            vida para o seu cãozinho! 🐶
+            vida para o seu cãozinho!
           </p>
         ),
       },
