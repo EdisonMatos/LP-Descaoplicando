@@ -41,13 +41,12 @@
   position: relative;
   display: block;
   width: calc(138% + 1.3px);
-  height: 97px;
+  height: 98px;
 }
 
 .custom-shape-divider-bottom-azul .shape-fill {
   fill: #40a7bb;
 }
-
 
 /** For mobile devices **/
 @media (max-width: 767px) {
@@ -56,7 +55,6 @@
     height: 48px;
   }
 }
-
 
 /** Onda azul var-escura **/
 
@@ -73,13 +71,12 @@
   position: relative;
   display: block;
   width: calc(138% + 1.3px);
-  height: 97px;
+  height: 98px;
 }
 
 .custom-shape-divider-bottom-var-escura .shape-fill {
-  fill: #03618C;
+  fill: #03618c;
 }
-
 
 /** For mobile devices **/
 @media (max-width: 767px) {
