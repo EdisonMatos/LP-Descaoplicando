@@ -20,15 +20,17 @@ import Icon4 from "../../assets/imgs/icons/icon4.webp";
 
 export default function FeaturesWithIcons() {
   return (
-    <SectionArea id="service">
-      <SectionHeader
-        className="text-center"
-        miniTitle={content.texts.features.miniTag}
-        sectionHeaderTitle={content.texts.features.title}
-        sectionHeaderSubtitle={content.texts.features.subtitle}
-        color="dark"
-      />
+    <SectionArea id="service" paddingbot={false}>
       <SectionWrapper>
+        <MotionDivDownToUp className="flex justify-center w-full ">
+          <SectionHeader
+            className="w-full text-center "
+            miniTitle={content.texts.features.miniTag}
+            sectionHeaderTitle={content.texts.features.title}
+            sectionHeaderSubtitle={content.texts.features.subtitle}
+            color="dark"
+          />
+        </MotionDivDownToUp>
         <div className="flex flex-col items-center justify-center w-full tablet1:flex-row tablet2:justify-evenly ">
           <div className="col1 desktop1:w-[28%] flex flex-col items-center">
             <MotionDivDownToUp>
