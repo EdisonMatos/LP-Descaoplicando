@@ -70,14 +70,16 @@ export default function About({ modal }) {
         </MotionDivDownToUp>
 
         <div className="desktop1:w-[550px] desktop2:w-[570px] ">
-          <SectionHeader
-            className="text-center"
-            miniTitle={content.texts.about.miniTag}
-            sectionHeaderTitle={content.texts.about.title}
-            sectionHeaderSubtitle={content.texts.about.subtitle}
-            color=""
-            type="article"
-          />
+          <MotionDivDownToUp>
+            <SectionHeader
+              className="text-center"
+              miniTitle={content.texts.about.miniTag}
+              sectionHeaderTitle={content.texts.about.title}
+              sectionHeaderSubtitle={content.texts.about.subtitle}
+              color=""
+              type="article"
+            />
+          </MotionDivDownToUp>
           <MotionDivDownToUp>
             <Paragraphs className="text-white text-opacity-80">
               <AboutFading />
