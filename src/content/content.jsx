@@ -21,10 +21,10 @@ import trustedByImg2 from "../assets/imgs/trustedBy/item2.jpg";
 import trustedByImg3 from "../assets/imgs/trustedBy/item3.jpg";
 
 import featuresImg1 from "../assets/imgs/features/featuresImg1.png";
-import featuresImg2 from "../assets/imgs/features/featuresImg2.png";
-import featuresImg3 from "../assets/imgs/features/featuresImg3.png";
-import featuresImg4 from "../assets/imgs/features/featuresImg4.png";
-import featuresImg5 from "../assets/imgs/features/featuresImg5.png";
+import featuresImg2 from "../assets/imgs/features/featuresImg2.webp";
+import featuresImg3 from "../assets/imgs/features/featuresImg3.webp";
+import featuresImg4 from "../assets/imgs/features/featuresImg4.webp";
+import featuresImg5 from "../assets/imgs/features/featuresImg5.webp";
 
 import ctaWhatsappImgBg from "../assets/imgs/paralaxe/bgParalaxe2.jpg";
 
@@ -508,17 +508,16 @@ const content = {
       },
     },
     features: {
-      miniTag: "REVOLUCIONANDO CARREIRAS",
-      title: "Nossos cursos",
+      miniTag: "NOSSOS SERVIÇOS",
+      title: "Proporcione o melhor para o seu amigo de quatro patas!",
       subtitle:
-        "Explore uma variedade de cursos desenvolvidos especialmente para capacitar e transformar sua carreira.",
+        "Hospede e adestre seu cão, criando uma experiência inesquecível para ele e para você!",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg2,
         title: "Consulta comportamental",
-        subtitle:
-          "Na nossa Escola para cães, oferecemos a Consulta Comportamental.",
+        subtitle: "Avaliação e solução para o seu cão.",
         description: (
           <div>
             Na nossa Escola e Hotel para cães, oferecemos a Consulta
@@ -539,8 +538,7 @@ const content = {
             - Treinamento Hospedado <br />
             - Treinamento a domicílio <br />
             - Escola com Acompanhamento a Domicílio Nosso objetivo é garantir
-             que seu cão tenha uma vida comportamentalmente saudável
-            e feliz.
+            que seu cão tenha uma vida comportamentalmente saudável e feliz.
             <br />
             <br /> Agende sua consulta e dê o primeiro passo para uma
             convivência mais harmoniosa com o seu cão.
@@ -566,8 +564,7 @@ const content = {
       card2: {
         img: featuresImg3,
         title: "Sessões a domicílio",
-        subtitle:
-          "Aqui na Descãoplicando, oferecemos um serviço especial de treinamento a domicílio.",
+        subtitle: "Sessões comportamentais no conforto de casa.",
         description: (
           <div>
             Aqui na nossa Escola e Hotel para cães Descãoplicando, oferecemos um
@@ -609,8 +606,7 @@ const content = {
       card3: {
         img: featuresImg4,
         title: "Treinamento + Hospedagem",
-        subtitle:
-          "Um serviço exclusivo da Descãoplicando.",
+        subtitle: "Um serviço exclusivo da Descãoplicando.",
         description: (
           <div>
             <h2 className="font-medium">TREINAMENTO HOSPEDADO:</h2>
@@ -672,8 +668,7 @@ const content = {
       card4: {
         img: featuresImg5,
         title: "Escola",
-        subtitle:
-          "Proporcionamos um ambiente ideal para equilibrar a vida física e emocional dos cães e tutores.",
+        subtitle: "Seu cão aprendendo com profissionais especializados.",
         description: (
           <div>
             Na nossa Escola para Cães, proporcionamos um ambiente ideal para
@@ -731,7 +726,7 @@ const content = {
           stepNumber: 1,
           cardTitle: "Planejamento",
           cardDescription:
-            "Na nossa Escola e Hotel para cães, oferecemos a Consulta Comportamental como o primeiro passo essencial para entender e melhorar o comportamento do seu cão. A Consulta Comportamental nos permite avaliar o comportamento do seu cão e identificar as causas de comportamentos indesejados. Analisamos o histórico de vida e saúde, identificamos problemas como ansiedade e agressividade, e fornecemos orientações importantes sobre alimentação, exercícios, socialização, e técnicas de treinamento. Com base na consulta, desenvolvemos um plano personalizado que pode incluir: Treinamento Hospedado Treinamento a domicílio Escola com Acompanhamento a Domicílio. Nosso objetivo é garantir que seu cão tenha uma vida comportamentalmente saudável e feliz. Agende sua consulta e dê o primeiro passo para uma convivência mais harmoniosa com o seu cão.",
+            "Estabeleça horários consistentes para alimentação, passeios e momentos de descanso. A previsibilidade ajuda seu cão a se sentir seguro e tranquilo.",
         },
         card2: {
           stepNumber: 2,
