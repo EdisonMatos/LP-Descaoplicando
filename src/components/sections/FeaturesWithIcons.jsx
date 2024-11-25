@@ -24,7 +24,7 @@ export default function FeaturesWithIcons() {
       <SectionWrapper>
         <MotionDivDownToUp className="flex justify-center w-full ">
           <SectionHeader
-            className="w-full text-center "
+            className="w-full text-center"
             miniTitle={content.texts.features.miniTag}
             sectionHeaderTitle={content.texts.features.title}
             sectionHeaderSubtitle={content.texts.features.subtitle}

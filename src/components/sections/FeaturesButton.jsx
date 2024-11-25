@@ -11,9 +11,11 @@ export default function FeaturesButton() {
       className="py-[40px] tablet1:py-[64px] desktop1:py-[96px]esktop1:pb-[0px] bg-quinary"
     >
       <SectionHeader
-        className="text-center"
+        className="w-full text-center"
+        miniTitle={content.texts.features.miniTag}
         sectionHeaderTitle={content.texts.features.title}
         sectionHeaderSubtitle={content.texts.features.subtitle}
+        color="dark"
       />
       <SectionWrapper>
         <div className="flex flex-wrap justify-between w-full gap-[36px] tablet1:gap-[24px]">
