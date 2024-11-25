@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unknown-property */
 import links from "./links";
 
 import logo from "../assets/imgs/logo/logo.png";
@@ -19,10 +20,11 @@ import trustedByImg1 from "../assets/imgs/trustedBy/item1.jpg";
 import trustedByImg2 from "../assets/imgs/trustedBy/item2.jpg";
 import trustedByImg3 from "../assets/imgs/trustedBy/item3.jpg";
 
-import featuresImg1 from "../assets/imgs/features/featuresImg1.jpg";
-import featuresImg2 from "../assets/imgs/features/featuresImg2.jpg";
-import featuresImg3 from "../assets/imgs/features/featuresImg3.jpg";
-import featuresImg4 from "../assets/imgs/features/featuresImg4.jpg";
+import featuresImg1 from "../assets/imgs/features/featuresImg1.png";
+import featuresImg2 from "../assets/imgs/features/featuresImg2.webp";
+import featuresImg3 from "../assets/imgs/features/featuresImg3.webp";
+import featuresImg4 from "../assets/imgs/features/featuresImg4.webp";
+import featuresImg5 from "../assets/imgs/features/featuresImg5.webp";
 
 import ctaWhatsappImgBg from "../assets/imgs/paralaxe/bgParalaxe2.jpg";
 
@@ -513,36 +515,205 @@ const content = {
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
+        img: featuresImg2,
         title: "Consulta comportamental",
-        subtitle:
-          "Diagnóstico do comportamento do cão para definir o melhor programa de treinamento.",
-        img: featuresImg1,
+        subtitle: "Avaliação e solução para o seu cão.",
+        description: (
+          <div>
+            Na nossa Escola e Hotel para cães, oferecemos a Consulta
+            Comportamental como o primeiro passo essencial para entender e
+            melhorar o comportamento do seu cão.
+            <br />
+            <br />A Consulta Comportamental nos permite avaliar o comportamento
+            do seu cão e identificar as causas de comportamentos indesejados.
+            Analisamos o histórico de vida e saúde, identificamos problemas como
+            ansiedade e agressividade, e fornecemos orientações importantes
+            sobre alimentação, exercícios, socialização, e técnicas de
+            treinamento.
+            <br />
+            <br />
+            Com base na consulta, desenvolvemos um plano personalizado que pode
+            incluir: <br />
+            <br />
+            - Treinamento Hospedado <br />
+            - Treinamento a domicílio <br />
+            - Escola com Acompanhamento a Domicílio Nosso objetivo é garantir
+            que seu cão tenha uma vida comportamentalmente saudável e feliz.
+            <br />
+            <br /> Agende sua consulta e dê o primeiro passo para uma
+            convivência mais harmoniosa com o seu cão.
+          </div>
+        ),
+        imgModal: featuresImg2,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
+          >
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+          </svg>
+        ),
+        buttonLabelModal: "Inscreva-se",
         buttonLabel: "Saiba mais",
-        buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre sites.`,
+        buttonLink: links.ctaWhatsapp,
       },
       card2: {
+        img: featuresImg3,
         title: "Sessões a domicílio",
-        subtitle:
-          "Treinamento personalizado no conforto da sua casa para corrigir comportamentos específicos.",
-        img: featuresImg2,
+        subtitle: "Sessões comportamentais no conforto de casa.",
+        description: (
+          <div>
+            Aqui na nossa Escola e Hotel para cães Descãoplicando, oferecemos um
+            serviço especial de treinamento a domicílio, com o objetivo de
+            proporcionar uma vida comportamental mais saudável para cães e
+            tutores. Nesse programa, destacamos a importância do envolvimento
+            dos tutores em todas as dinâmicas e processos de treinamento.
+            <br />
+            <br /> Os tutores também são responsáveis pela evolução do cão, se
+            comprometendo com as dinâmicas abordadas na residência, participando
+            ativamente da modelagem comportamental, além de se dedicarem às
+            atividades de rotina e direcionamentos propostos pelo profissional.
+            As sessões acontecem duas vezes por semana, com duração média de uma
+            hora. Pedimos que qualquer cancelamento seja notificado com
+            antecedência máxima de 24 horas para evitar o cancelamento da
+            sessão.
+            <br />
+            <br />
+            Estamos à disposição para ajudar você e seu cão a alcançarem uma
+            convivência harmoniosa e equilibrada!
+          </div>
+        ),
+        imgModal: featuresImg3,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
+          >
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+          </svg>
+        ),
+        buttonLabelModal: "Inscreva-se",
         buttonLabel: "Saiba mais",
-        buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre landing pages.`,
       },
       card3: {
-        title: "Treinamento hospedado",
-        subtitle:
-          "Cão hospedado e treinado em ambiente controlado para resultados rápidos.",
-        img: featuresImg3,
+        img: featuresImg4,
+        title: "Treinamento + Hospedagem",
+        subtitle: "Um serviço exclusivo da Descãoplicando.",
+        description: (
+          <div>
+            <h2 className="font-medium">TREINAMENTO HOSPEDADO:</h2>
+            <br />
+            Um serviço exclusivo da nossa Escola e Hotel para cães
+            Descãoplicando, que visa proporcionar uma vida comportamental
+            saudável para o seu cão e tranquilidade para você. Durante a
+            hospedagem, o cão precisará de uma caixa de transporte (disponível
+            para aluguel, se necessário), ferramentas específicas indicadas por
+            nós. A alimentação e a quantidade de tapetes higiênicos conforme o
+            número de diárias também são oferecidas pelos tutores.
+            <br />
+            <br />É essencial que o cão seja castrado, tenha a carteirinha de
+            vacinação em dia (vacinas V10, raiva e gripe canina) e um exame de
+            fezes negativo para giárdia. Nos últimos cinco dias consecutivos de
+            hospedagem, os tutores devem comparecer à nossa Escola para receber
+            orientações sobre o treinamento realizado. Após o período de
+            hospedagem, oferecemos acompanhamento via WhatsApp por um mês.
+            Durante esse período, pode ser necessário o retorno do cão para
+            ajustes no treinamento. Nosso objetivo é garantir que seu cão tenha
+            uma experiência positiva e que você, como tutor, sinta-se seguro e
+            bem orientado em cada etapa do processo.
+            <br />
+            <br />
+            <br />
+            <h2 className="font-medium">HOSPEDAGEM COMUM:</h2>
+            <br />
+            Nosso serviço de hospedagem comum oferece uma rotina completa para o
+            seu cão, com exercícios físicos, sociais e momentos de relaxamento
+            participando de todas as atividades com os cães que frequentam o
+            espaço para o serviço de Escola para Cães. Os cães repousam na caixa
+            de transporte, que deve ser trazida pelo tutor ou alugada conosco. A
+            alimentação é fornecida pelos tutores, assim como a quantidade de
+            tapetes higiênicos necessária para o período de hospedagem. Caso o
+            seu cão não frequente nossa escola, é necessário agendamento prévio
+            para as adaptações necessárias onde o cão frequenta a rotina da
+            Escola para Cães em datas específicas que antecedem o período da
+            hospedagem. Este serviço é exclusivo para cães castrados, com a
+            carteirinha de vacinação em dia (vacina v10, gripe, raiva) e um
+            exame de fezes negativo para giárdia.
+          </div>
+        ),
+        imgModal: featuresImg4,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
+          >
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+          </svg>
+        ),
+        buttonLabelModal: "Inscreva-se",
         buttonLabel: "Saiba mais",
-        buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre landing pages.`,
       },
       card4: {
-        title: "Escola + Atendimento a domicílio",
-        subtitle:
-          "Treinamento completo na escola e reforço com sessões a domicílio.",
-        img: featuresImg4,
+        img: featuresImg5,
+        title: "Escola",
+        subtitle: "Seu cão aprendendo com profissionais especializados.",
+        description: (
+          <div>
+            Na nossa Escola para Cães, proporcionamos um ambiente ideal para
+            equilibrar a vida física e emocional dos cães e tutores. Oferecemos
+            uma rotina estruturada que inclui atividades físicas como caminhada,
+            uso de esteira e atividades sociais, todas adaptadas às necessidades
+            individuais de cada cão.
+            <br />
+            <br />
+            Nossa escola é exclusiva para cães castrados, sendo aceitos machos
+            até 6 meses e após esse período a castração é obrigatória. Fêmeas em
+            período de cio ficam afastadas de todas as atividades. Para a
+            matrícula, é necessário apresentar a carteira de vacinação
+            atualizada com V10, vacina de gripe, raiva e um exame de fezes
+            negativo para giárdia.
+            <br />
+            <br />
+            Os cães devem trazer sua própria ração para o almoço e um tapete
+            higiênico. Todo o restante é oferecido pela escola. Funcionamos de
+            segunda, quarta, quinta e sexta-feira, das 7h às 19h, garantindo que
+            seu cão tenha um dia repleto de exercícios, socialização e
+            relaxamento sob nossa supervisão especializada.
+            <br />
+            <br />
+            Venha fazer parte da nossa Escola para Cães e proporcione ao seu
+            companheiro uma vida mais saudável e equilibrada. Estamos prontos
+            para acolher seu cão e oferecer o melhor cuidado para seu bem-estar.
+            Entre em contato e agende uma visita!
+          </div>
+        ),
+        imgModal: featuresImg5,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
+          >
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+          </svg>
+        ),
+        buttonLabelModal: "Inscreva-se",
         buttonLabel: "Saiba mais",
-        buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre landing pages.`,
       },
     },
     steps: {
