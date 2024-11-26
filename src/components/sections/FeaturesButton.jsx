@@ -160,7 +160,7 @@ export default function FeaturesButton() {
         visible={visible}
         onHide={() => setVisible(false)}
         style={{ width: "50vw" }}
-        breakpoints={{ "4000px": "35vw", "1024px": "60vw", "641px": "90vw" }}
+        breakpoints={{ "40000px": "425px", "450px": "90vw" }}
       >
         <h3>{modalSubtitle}</h3>
         <p className="m-0">{modalContent}</p>
