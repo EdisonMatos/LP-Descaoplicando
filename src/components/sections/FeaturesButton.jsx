@@ -32,7 +32,7 @@ export default function FeaturesButton() {
       <SectionArea
         paddingbot={false}
         id={"service"}
-        className="py-[40px] tablet1:py-[64px] desktop1:py-[96px] desktop1:pb-[0px] bg-quinary"
+        // className="py-[40px] tablet1:py-[64px] desktop1:py-[96px] desktop1:pb-[0px] bg-quinary"
       >
         <MotionDivDownToUp className="flex justify-center w-full">
           <SectionHeader
@@ -51,6 +51,7 @@ export default function FeaturesButton() {
               description={content.texts.features.card1.subtitle}
               buttonLabel={content.texts.features.card1.buttonLabel}
               buttonColor=""
+              bgPosition=""
               onClick={() =>
                 onClick(
                   content.texts.features.card1.title,
@@ -64,6 +65,7 @@ export default function FeaturesButton() {
                         content.texts.features.card1.buttonLabelModal
                       }
                       buttonLink={whatsappContactLink}
+                      bgPosition="bg-top"
                     />
                   </div>
                 )
@@ -142,6 +144,13 @@ export default function FeaturesButton() {
               }
             />
           </div>
+          <MotionDivDownToUp>
+            <img
+              src={content.texts.features.imgDivisor}
+              className="p-[60px] tablet1:p-[84px] opacity-30"
+              alt="Imagem de divisão em formato de onda"
+            />
+          </MotionDivDownToUp>
         </SectionWrapper>
       </SectionArea>
 
