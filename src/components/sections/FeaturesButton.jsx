@@ -51,6 +51,7 @@ export default function FeaturesButton() {
               description={content.texts.features.card1.subtitle}
               buttonLabel={content.texts.features.card1.buttonLabel}
               buttonColor=""
+              bgPosition=""
               onClick={() =>
                 onClick(
                   content.texts.features.card1.title,
@@ -64,6 +65,7 @@ export default function FeaturesButton() {
                         content.texts.features.card1.buttonLabelModal
                       }
                       buttonLink={whatsappContactLink}
+                      bgPosition="bg-top"
                     />
                   </div>
                 )
