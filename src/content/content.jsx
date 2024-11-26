@@ -3,8 +3,8 @@ import links from "./links";
 
 import logo from "../assets/imgs/logo/logo.png";
 import solidLogo from "../assets/imgs/logo/solidLogo.png";
-import bgHeroPc from "../assets/imgs/hero/bgHeroPc.jpg";
-import bgHeroMobile from "../assets/imgs/hero/bgHeroMobile.jpg";
+import bgHeroPc from "../assets/imgs/hero/bgHeroPc.webp";
+import bgHeroMobile from "../assets/imgs/hero/bgHeroMobile.webp";
 
 import imgFeatures from "../assets/imgs/features/imgFeatures.webp";
 import imgDivisor from "../assets/imgs/features/imgDivisor.webp";
@@ -537,8 +537,10 @@ const content = {
             <br />
             - Treinamento Hospedado <br />
             - Treinamento a domicílio <br />
-            - Escola com Acompanhamento a Domicílio Nosso objetivo é garantir
-            que seu cão tenha uma vida comportamentalmente saudável e feliz.
+            - Escola com Acompanhamento a Domicílio <br />
+            <br />
+            Nosso objetivo é garantir que seu cão tenha uma vida
+            comportamentalmente saudável e feliz.
             <br />
             <br /> Agende sua consulta e dê o primeiro passo para uma
             convivência mais harmoniosa com o seu cão.
@@ -578,9 +580,11 @@ const content = {
             ativamente da modelagem comportamental, além de se dedicarem às
             atividades de rotina e direcionamentos propostos pelo profissional.
             As sessões acontecem duas vezes por semana, com duração média de uma
-            hora. Pedimos que qualquer cancelamento seja notificado com
-            antecedência máxima de 24 horas para evitar o cancelamento da
-            sessão.
+            hora.
+            <br />
+            <br />
+            Pedimos que qualquer cancelamento seja notificado com antecedência
+            máxima de 24 horas para evitar o cancelamento da sessão.
             <br />
             <br />
             Estamos à disposição para ajudar você e seu cão a alcançarem uma
@@ -609,44 +613,50 @@ const content = {
         subtitle: "Um serviço exclusivo da Descãoplicando.",
         description: (
           <div>
-            <h2 className="font-medium">TREINAMENTO HOSPEDADO:</h2>
+            <h2 className="font-bold">TREINAMENTO HOSPEDADO:</h2>
             <br />
             Um serviço exclusivo da nossa Escola e Hotel para cães
             Descãoplicando, que visa proporcionar uma vida comportamental
-            saudável para o seu cão e tranquilidade para você. Durante a
-            hospedagem, o cão precisará de uma caixa de transporte (disponível
-            para aluguel, se necessário), ferramentas específicas indicadas por
-            nós. A alimentação e a quantidade de tapetes higiênicos conforme o
-            número de diárias também são oferecidas pelos tutores.
+            saudável para o seu cão e tranquilidade para você.
+            <br />
+            Durante a hospedagem, o cão precisará de uma caixa de transporte
+            (disponível para aluguel, se necessário), ferramentas específicas
+            indicadas por nós. A alimentação e a quantidade de tapetes
+            higiênicos conforme o número de diárias também são oferecidas pelos
+            tutores.
             <br />
             <br />É essencial que o cão seja castrado, tenha a carteirinha de
             vacinação em dia (vacinas V10, raiva e gripe canina) e um exame de
             fezes negativo para giárdia. Nos últimos cinco dias consecutivos de
             hospedagem, os tutores devem comparecer à nossa Escola para receber
-            orientações sobre o treinamento realizado. Após o período de
-            hospedagem, oferecemos acompanhamento via WhatsApp por um mês.
-            Durante esse período, pode ser necessário o retorno do cão para
-            ajustes no treinamento. Nosso objetivo é garantir que seu cão tenha
-            uma experiência positiva e que você, como tutor, sinta-se seguro e
-            bem orientado em cada etapa do processo.
+            orientações sobre o treinamento realizado. <br />
+            Após o período de hospedagem, oferecemos acompanhamento via WhatsApp
+            por um mês. Durante esse período, pode ser necessário o retorno do
+            cão para ajustes no treinamento. Nosso objetivo é garantir que seu
+            cão tenha uma experiência positiva e que você, como tutor, sinta-se
+            seguro e bem orientado em cada etapa do processo.
             <br />
             <br />
-            <br />
-            <h2 className="font-medium">HOSPEDAGEM COMUM:</h2>
+            <h2 className="font-bold">HOSPEDAGEM COMUM:</h2>
             <br />
             Nosso serviço de hospedagem comum oferece uma rotina completa para o
             seu cão, com exercícios físicos, sociais e momentos de relaxamento
             participando de todas as atividades com os cães que frequentam o
             espaço para o serviço de Escola para Cães. Os cães repousam na caixa
-            de transporte, que deve ser trazida pelo tutor ou alugada conosco. A
-            alimentação é fornecida pelos tutores, assim como a quantidade de
-            tapetes higiênicos necessária para o período de hospedagem. Caso o
-            seu cão não frequente nossa escola, é necessário agendamento prévio
-            para as adaptações necessárias onde o cão frequenta a rotina da
-            Escola para Cães em datas específicas que antecedem o período da
-            hospedagem. Este serviço é exclusivo para cães castrados, com a
-            carteirinha de vacinação em dia (vacina v10, gripe, raiva) e um
-            exame de fezes negativo para giárdia.
+            de transporte, que deve ser trazida pelo tutor ou alugada conosco.
+            <br />A alimentação é fornecida pelos tutores, assim como a
+            quantidade de tapetes higiênicos necessária para o período de
+            hospedagem.
+            <br />
+            <br />
+            Caso o seu cão não frequente nossa escola, é necessário agendamento
+            prévio para as adaptações necessárias onde o cão frequenta a rotina
+            da Escola para Cães em datas específicas que antecedem o período da
+            hospedagem. <br />
+            <br />
+            Este serviço é exclusivo para cães castrados, com a carteirinha de
+            vacinação em dia (vacina v10, gripe, raiva) e um exame de fezes
+            negativo para giárdia.
           </div>
         ),
         imgModal: featuresImg4,
