@@ -67,7 +67,7 @@ const content = {
       ),
 
       subtitle:
-        "Técnicas personalizadas para garantir obediência, respeito e uma conexão verdadeira, harmônica e saudável com seu pet.",
+        "Técnicas personalizadas para garantir obediência, respeito e uma conexão verdadeira, harmônica e saudável com seu cão.",
       ctaButtonText: "Falar com um adestrador",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -236,8 +236,8 @@ const content = {
             <br />
             Fique por dentro das dicas, novidades e conteúdos sobre
             comportamento canino, treinamentos e cuidados essenciais para a vida
-            do seu pet. Não perca a chance de proporcionar mais qualidade de
-            vida para o seu cãozinho!
+            do seu cão. Não perca a chance de proporcionar mais qualidade de
+            vida para o seu cão!
           </p>
         ),
       },
@@ -509,7 +509,7 @@ const content = {
     },
     features: {
       miniTag: "NOSSOS SERVIÇOS",
-      title: "Proporcione o melhor para o seu cão",
+      title: "Proporcione o melhor para o seu cão!",
       subtitle:
         "Hospede e adestre seu cão, criando uma experiência inesquecível para ele e para você!",
       imgFeatures: imgFeatures,
@@ -763,8 +763,8 @@ const content = {
       miniTag: "CONTATE AGORA",
       title: "Pronto para transformar a vida do seu cão?",
       subtitle:
-        "Entre em contato agora e comece a proporcionar uma rotina mais feliz, equilibrada e saudável para o seu pet com nossos serviços especializados!",
-      ctaButtonText: "Vamos criar uma vida mais feliz para seu pet",
+        "Entre em contato agora e comece a proporcionar uma rotina mais feliz, equilibrada e saudável para o seu cão com nossos serviços especializados!",
+      ctaButtonText: "Vamos criar uma vida mais feliz para seu cão",
     },
     testimonials: {
       miniTag: "FEEDBACKS REAIS",
