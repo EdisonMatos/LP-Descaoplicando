@@ -509,7 +509,7 @@ const content = {
     },
     features: {
       miniTag: "NOSSOS SERVIÇOS",
-      title: "Proporcione o melhor para o seu amigo de quatro patas!",
+      title: "Proporcione o melhor para o seu cão",
       subtitle:
         "Hospede e adestre seu cão, criando uma experiência inesquecível para ele e para você!",
       imgFeatures: imgFeatures,
