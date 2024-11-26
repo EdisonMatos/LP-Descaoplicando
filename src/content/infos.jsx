@@ -20,11 +20,11 @@ const infos = {
         <br />
         Sábados
         <br />
-        9h às 14:30h
+        9h às 14:30
         <br />
       </p>
     ),
-    midSectionName: "Até mais! 🐶",
+    midSectionName: "Até mais! 🐾",
     year: 2024,
     footerText:
       "Esperamos que em breve você e seu cão se juntem a nós para explorar todas as maravilhas que temos a oferecer. Estamos aqui para ajudar a transformar a vida do seu pet com carinho e dedicação! ",
