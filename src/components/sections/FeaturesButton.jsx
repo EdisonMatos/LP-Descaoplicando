@@ -31,7 +31,7 @@ export default function FeaturesButton() {
     <div>
       <SectionArea
         id={"service"}
-        className="py-[40px] tablet1:py-[64px] desktop1:py-[96px] desktop1:pb-[0px] bg-quinary squares"
+        className="py-[40px] tablet1:py-[64px] desktop1:py-[96px] desktop1:pb-[0px] bg-quinary"
       >
         <MotionDivDownToUp className="w-full flex justify-center">
           <SectionHeader
