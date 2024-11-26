@@ -668,7 +668,7 @@ const content = {
       card4: {
         img: featuresImg5,
         title: "Escola",
-        subtitle: "Seu cão aprendendo com profissionais especializados.",
+        subtitle: "Seu cão aprendendo com especialistas.",
         description: (
           <div>
             Na nossa Escola para Cães, proporcionamos um ambiente ideal para
