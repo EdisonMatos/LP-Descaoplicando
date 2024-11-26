@@ -3,8 +3,8 @@ import links from "./links";
 
 import logo from "../assets/imgs/logo/logo.png";
 import solidLogo from "../assets/imgs/logo/solidLogo.png";
-import bgHeroPc from "../assets/imgs/hero/bgHeroPc.jpg";
-import bgHeroMobile from "../assets/imgs/hero/bgHeroMobile.jpg";
+import bgHeroPc from "../assets/imgs/hero/bgHeroPc.webp";
+import bgHeroMobile from "../assets/imgs/hero/bgHeroMobile.webp";
 
 import imgFeatures from "../assets/imgs/features/imgFeatures.webp";
 import imgDivisor from "../assets/imgs/features/imgDivisor.webp";
