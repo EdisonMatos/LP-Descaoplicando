@@ -27,7 +27,7 @@ const infos = {
     midSectionName: "Até mais! 🐾",
     year: 2024,
     footerText:
-      "Esperamos que em breve você e seu cão se juntem a nós para explorar todas as maravilhas que temos a oferecer. Estamos aqui para ajudar a transformar a vida do seu cão com carinho e dedicação! ",
+      "Esperamos que em breve você e seu cão se juntem a nós para explorar o universo canino conosco! Estamos aqui para ajudar a transformar a vida do seu cão com comprometimento e dedicação!",
   },
 };
 

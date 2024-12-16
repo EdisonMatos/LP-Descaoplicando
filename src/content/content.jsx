@@ -517,33 +517,39 @@ const content = {
       card1: {
         img: featuresImg2,
         title: "Consulta comportamental",
-        subtitle: "Avaliação e solução para o seu cão.",
+        subtitle: "Diagnóstico e solução para o seu cão.",
         description: (
           <div>
             Na nossa Escola e Hotel para cães, oferecemos a Consulta
             Comportamental como o primeiro passo essencial para entender e
             melhorar o comportamento do seu cão.
             <br />
-            <br />A Consulta Comportamental nos permite avaliar o comportamento
-            do seu cão e identificar as causas de comportamentos indesejados.
+            <br />
+            A Consulta Comportamental nos permite avaliar o comportamento do seu
+            cão e identificar as causas de comportamentos indesejados.
             Analisamos o histórico de vida e saúde, identificamos problemas como
             ansiedade e agressividade, e fornecemos orientações importantes
-            sobre alimentação, exercícios, socialização, e técnicas de
+            sobre alimentação, exercícios, socialização e técnicas de
             treinamento.
             <br />
             <br />
-            Com base na consulta, desenvolvemos um plano personalizado que pode
-            incluir: <br />
+            Realizamos a consulta comportamental a domicílio para a região do
+            ABCD e algumas regiões de São Paulo, além de oferecê-la online para
+            outras localidades, garantindo praticidade e atendimento onde você
+            estiver.
             <br />
-            - Treinamento Hospedado <br />
-            - Treinamento a domicílio <br />
-            - Escola com Acompanhamento a Domicílio <br />
+            <br />
+            Com base na consulta, desenvolvemos um plano personalizado que pode
+            incluir:
+            <ul>
+              <li>- Treinamento Hospedado</li>
+              <li>- Treinamento a domicílio</li>
+              <li>- Escola com Acompanhamento a Domicílio</li>
+            </ul>
             <br />
             Nosso objetivo é garantir que seu cão tenha uma vida
-            comportamentalmente saudável e feliz.
-            <br />
-            <br /> Agende sua consulta e dê o primeiro passo para uma
-            convivência mais harmoniosa com o seu cão.
+            comportamentalmente saudável e feliz. Agende sua consulta e dê o
+            primeiro passo para uma convivência mais harmoniosa com o seu cão.
           </div>
         ),
         imgModal: featuresImg2,
@@ -572,19 +578,21 @@ const content = {
             Aqui na nossa Escola e Hotel para cães Descãoplicando, oferecemos um
             serviço especial de treinamento a domicílio, com o objetivo de
             proporcionar uma vida comportamental mais saudável para cães e
-            tutores. Nesse programa, destacamos a importância do envolvimento
-            dos tutores em todas as dinâmicas e processos de treinamento.
+            tutores.
             <br />
-            <br /> Os tutores também são responsáveis pela evolução do cão, se
+            <br />
+            Nesse programa, destacamos a importância do envolvimento dos tutores
+            em todas as dinâmicas e processos de treinamento.
+            <br />
+            <br />
+            Os tutores também são responsáveis pela evolução do cão, se
             comprometendo com as dinâmicas abordadas na residência, participando
             ativamente da modelagem comportamental, além de se dedicarem às
             atividades de rotina e direcionamentos propostos pelo profissional.
+            <br />
+            <br />
             As sessões acontecem duas vezes por semana, com duração média de uma
             hora.
-            <br />
-            <br />
-            Pedimos que qualquer cancelamento seja notificado com antecedência
-            máxima de 24 horas para evitar o cancelamento da sessão.
             <br />
             <br />
             Estamos à disposição para ajudar você e seu cão a alcançarem uma
@@ -736,25 +744,25 @@ const content = {
           stepNumber: 1,
           cardTitle: "Planejamento",
           cardDescription:
-            "Estabeleça horários consistentes para alimentação, passeios e momentos de descanso. A previsibilidade ajuda seu cão a se sentir seguro e tranquilo.",
+            "Crie hábitos e adicione em sua rotina momentos onde a interação com seu cão seja rica em atividades que fazem sentido para a natureza deste animal, tais como atividades fisicas, passivas e socias. A previsibilidade ajuda seu cão a se sentir seguro e pertencente ao grupo que hoje ele vive.",
         },
         card2: {
           stepNumber: 2,
           cardTitle: "Atividades",
           cardDescription:
-            "Inclua atividades físicas, sociais e passivas que atendam às necessidades do seu cão, com variações para manter a diversão e engajamento.",
+            "Atividades físicas são importantíssimas assim como o decanso de qualidade. Entenda como funciona a nocividade de abrigo para seu cão e proporcione qualidade física nos momentos de atividades ativas e repouso em momentos de atividades passivas.",
         },
         card3: {
           stepNumber: 3,
-          cardTitle: "Ambiente",
+          cardTitle: "Comunicação",
           cardDescription:
-            "Prepare um ambiente familiar e tranquilo, com espaços para descanso e socialização, de modo que seu cão se sinta confortável e equilibrado.",
+            "Entenda como funciona a comunicação da espécie canina, muito importante para estabelecer uma relação respeitosa e acertiva para as duas espécies que estão envolvidas nesse contexto, a nossa e a dos cães.",
         },
         card4: {
           stepNumber: 4,
           cardTitle: "Acompanhamento",
           cardDescription:
-            "Conte conosco para o suporte contínuo na adaptação e manutenção da rotina do seu cão, garantindo que ele tenha uma vida mais feliz e saudável.",
+            "Conte conosco para o suporte contínuo na adaptação e manutenção da rotina do seu cão, garantindo que ele tenha uma vida mais previsível e saudável.",
         },
       },
     },
@@ -798,7 +806,7 @@ const content = {
         question1: {
           question: "Como funciona o processo de treinamento para meu cão?",
           answer:
-            "Nosso treinamento é personalizado, adaptado às necessidades de cada cão. Após uma avaliação inicial, montamos um plano de ação com atividades práticas para garantir que seu cão aprenda de forma eficaz e natural.",
+            "Nosso treinamento é personalizado, adaptado às necessidades de cada cão. Após um diagnóstico inicial, montamos um plano de ação com atividades práticas para garantir que seu cão aprenda de forma eficaz e natural.",
         },
         question2: {
           question:
@@ -810,7 +818,7 @@ const content = {
           question:
             "Como posso saber se meu cão está pronto para a hospedagem?",
           answer:
-            "Para garantir que seu cão se adapte bem à nossa hospedagem, recomendamos uma avaliação prévia. Isso nos permite entender suas necessidades e ajustar a rotina para o máximo de conforto e segurança.",
+            "Para garantir que seu cão se adapte bem à nossa hospedagem é necessário o agendamento com antecedência. Isso nos permite entender suas necessidades e ajustar a rotina para o máximo de conforto e segurança.",
         },
         question4: {
           question:
