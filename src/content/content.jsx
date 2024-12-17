@@ -744,13 +744,13 @@ const content = {
           stepNumber: 1,
           cardTitle: "Planejamento",
           cardDescription:
-            "Crie hábitos e adicione em sua rotina momentos onde a interação com seu cão seja rica em atividades que fazem sentido para a natureza deste animal, tais como atividades fisicas, passivas e socias. A previsibilidade ajuda seu cão a se sentir seguro e pertencente ao grupo que hoje ele vive.",
+            "Crie hábitos e adicione em sua rotina momentos onde a interação com seu cão seja rica em atividades que fazem sentido para a natureza deste animal, tais como atividades físicas, passivas e sociais. A previsibilidade ajuda seu cão a se sentir seguro e pertencente ao grupo que hoje ele vive.",
         },
         card2: {
           stepNumber: 2,
           cardTitle: "Atividades",
           cardDescription:
-            "Atividades físicas são importantíssimas assim como o decanso de qualidade. Entenda como funciona a nocividade de abrigo para seu cão e proporcione qualidade física nos momentos de atividades ativas e repouso em momentos de atividades passivas.",
+            "Atividades físicas são importantíssimas assim como o decanso de qualidade. Entenda como funciona a noção de abrigo para seu cão e proporcione qualidade física nos momentos de atividades ativas e repouso em momentos de atividades passivas.",
         },
         card3: {
           stepNumber: 3,
