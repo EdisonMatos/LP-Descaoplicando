@@ -716,7 +716,7 @@ const content = {
       card5: {
         img: featuresImg7,
         title: "Hospedagem para Cães",
-        subtitle: "Conforto e segurança enquanto você estiver fora",
+        subtitle: "Conforto e segurança enquanto você estiver fora.",
         description: (
           <div>
             Nosso serviço de hospedagem comum oferece uma rotina completa para o
