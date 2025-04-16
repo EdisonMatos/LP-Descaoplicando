@@ -44,7 +44,7 @@ export default function FeaturesButton() {
           />
         </MotionDivDownToUp>
         <SectionWrapper>
-          <div className="flex flex-wrap justify-between w-full gap-[36px] tablet1:gap-[24px]">
+          <div className="flex flex-wrap justify-center w-full gap-[36px] tablet1:gap-[24px]">
             <FeatureImgOnBgCardButton
               bgImg={content.texts.features.card1.img}
               title={content.texts.features.card1.title}
@@ -112,6 +112,30 @@ export default function FeaturesButton() {
                       buttonIcon={content.texts.features.card3.icon}
                       buttonLabel={
                         content.texts.features.card3.buttonLabelModal
+                      }
+                      buttonLink={whatsappContactLink}
+                    />
+                  </div>
+                )
+              }
+            />
+            <FeatureImgOnBgCardButton
+              bgImg={content.texts.features.card5.img}
+              title={content.texts.features.card5.title}
+              description={content.texts.features.card5.subtitle}
+              buttonLabel={content.texts.features.card5.buttonLabel}
+              buttonColor="bg-black"
+              onClick={() =>
+                onClick(
+                  content.texts.features.card5.title,
+                  <div>
+                    <ServiceDetailCard
+                      img={content.texts.features.card5.imgModal}
+                      // subtitle={content.texts.features.card4.subtitle}
+                      description={content.texts.features.card5.description}
+                      buttonIcon={content.texts.features.card5.icon}
+                      buttonLabel={
+                        content.texts.features.card5.buttonLabelModal
                       }
                       buttonLink={whatsappContactLink}
                     />

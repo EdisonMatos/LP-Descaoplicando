@@ -25,6 +25,8 @@ import featuresImg2 from "../assets/imgs/features/featuresImg2.webp";
 import featuresImg3 from "../assets/imgs/features/featuresImg3.webp";
 import featuresImg4 from "../assets/imgs/features/featuresImg4.webp";
 import featuresImg5 from "../assets/imgs/features/featuresImg5.webp";
+import featuresImg6 from "../assets/imgs/features/featuresImg6.png";
+import featuresImg7 from "../assets/imgs/features/featuresImg7.jpg";
 
 import ctaWhatsappImgBg from "../assets/imgs/paralaxe/bgParalaxe2.jpg";
 
@@ -152,7 +154,7 @@ const content = {
       },
       miniTag: "NOSSA TRAJETÓRIA",
       title: "Quem somos?",
-      subtitle: "Um pouco mais sobre a Descãoplicando Escola e Hotel para Cães",
+      subtitle: "Um pouco mais sobre a Descãoplicando Escola e Hotel para Cães.",
       paragraph: (
         <div>
           A Descãoplicando foi idealizada em 2021 por dois apaixonados por cães:
@@ -617,7 +619,7 @@ const content = {
       },
       card3: {
         img: featuresImg4,
-        title: "Treinamento + Hospedagem",
+        title: "Treinamento canino",
         subtitle: "Um serviço exclusivo da Descãoplicando.",
         description: (
           <div>
@@ -625,46 +627,24 @@ const content = {
             <br />
             Um serviço exclusivo da nossa Escola e Hotel para cães
             Descãoplicando, que visa proporcionar uma vida comportamental
-            saudável para o seu cão e tranquilidade para você.
-            <br />
-            Durante a hospedagem, o cão precisará de uma caixa de transporte
-            (disponível para aluguel, se necessário), ferramentas específicas
-            indicadas por nós. A alimentação e a quantidade de tapetes
-            higiênicos conforme o número de diárias também são oferecidas pelos
-            tutores.
-            <br />
-            <br />É essencial que o cão seja castrado, tenha a carteirinha de
+            saudável para o seu cão e tranquilidade para você. Durante a
+            hospedagem, o cão precisará de uma caixa de transporte (disponível
+            para aluguel, se necessário), ferramentas específicas indicadas por
+            nós. A alimentação e a quantidade de tacãoes higiênicos conforme o
+            número de diárias também são oferecidas pelos tutores.
+            <br /> <br />
+            É essencial que o cão seja castrado, tenha a carteirinha de
             vacinação em dia (vacinas V10, raiva e gripe canina) e um exame de
             fezes negativo para giárdia. Nos últimos cinco dias consecutivos de
             hospedagem, os tutores devem comparecer à nossa Escola para receber
-            orientações sobre o treinamento realizado. <br />
-            Após o período de hospedagem, oferecemos acompanhamento via WhatsApp
-            por um mês. Durante esse período, pode ser necessário o retorno do
-            cão para ajustes no treinamento. Nosso objetivo é garantir que seu
-            cão tenha uma experiência positiva e que você, como tutor, sinta-se
-            seguro e bem orientado em cada etapa do processo.
+            orientações sobre o treinamento realizado. Após o período de
+            hospedagem, oferecemos acompanhamento via WhatsApp por um mês.
+            Durante esse período, pode ser necessário o retorno do cão para
+            ajustes no treinamento. Nosso objetivo é garantir que seu cão tenha
+            uma experiência positiva e que você, como tutor, sinta-se seguro e
+            bem orientado em cada etapa do processo.
             <br />
             <br />
-            <h2 className="font-bold">HOSPEDAGEM COMUM:</h2>
-            <br />
-            Nosso serviço de hospedagem comum oferece uma rotina completa para o
-            seu cão, com exercícios físicos, sociais e momentos de relaxamento
-            participando de todas as atividades com os cães que frequentam o
-            espaço para o serviço de Escola para Cães. Os cães repousam na caixa
-            de transporte, que deve ser trazida pelo tutor ou alugada conosco.
-            <br />A alimentação é fornecida pelos tutores, assim como a
-            quantidade de tapetes higiênicos necessária para o período de
-            hospedagem.
-            <br />
-            <br />
-            Caso o seu cão não frequente nossa escola, é necessário agendamento
-            prévio para as adaptações necessárias onde o cão frequenta a rotina
-            da Escola para Cães em datas específicas que antecedem o período da
-            hospedagem. <br />
-            <br />
-            Este serviço é exclusivo para cães castrados, com a carteirinha de
-            vacinação em dia (vacina v10, gripe, raiva) e um exame de fezes
-            negativo para giárdia.
           </div>
         ),
         imgModal: featuresImg4,
@@ -685,7 +665,7 @@ const content = {
       },
       card4: {
         img: featuresImg5,
-        title: "Escola",
+        title: "Escola para cães",
         subtitle: "Seu cão aprendendo com especialistas.",
         description: (
           <div>
@@ -718,6 +698,50 @@ const content = {
           </div>
         ),
         imgModal: featuresImg5,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
+          >
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba mais",
+      },
+      card5: {
+        img: featuresImg7,
+        title: "Hospedagem para cães",
+        subtitle: "Conforto e segurança enquanto você estiver fora.",
+        description: (
+          <div>
+            Nosso serviço de hospedagem comum oferece uma rotina completa para o
+            seu cão, com exercícios físicos, sociais e momentos de relaxamento
+            participando de todas as atividades com os cães que frequentam o
+            espaço para o serviço de Escola para Cães. Os cães repousam na caixa
+            de transporte, que deve ser trazida pelo tutor ou alugada conosco. A
+            alimentação é fornecida pelos tutores, assim como a quantidade de
+            tacãoes higiênicos necessária para o período de hospedagem.
+            <br />
+            <br />
+            Caso o seu cão não frequente nossa escola, é necessário agendamento
+            prévio para as adaptações necessárias onde o cão frequenta a rotina
+            da Escola para Cães em datas específicas que antecedem o período da
+            hospedagem.
+            <br />
+            <br />
+            Este serviço é exclusivo para cães castrados, com a carteirinha de
+            vacinação em dia (vacina v10, gripe, raiva) e um exame de fezes
+            negativo para giárdia.
+            <br />
+            <br />
+          </div>
+        ),
+        imgModal: featuresImg7,
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
