@@ -517,7 +517,7 @@ const content = {
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
-        img: featuresImg6,
+        img: featuresImg2,
         title: "Consulta comportamental",
         subtitle: "Diagnóstico e solução para o seu cão.",
         description: (
@@ -665,7 +665,7 @@ const content = {
       },
       card4: {
         img: featuresImg5,
-        title: "Escola",
+        title: "Escola para Cães",
         subtitle: "Seu cão aprendendo com especialistas.",
         description: (
           <div>
