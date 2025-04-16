@@ -138,6 +138,7 @@ export default function FeaturesButton() {
                         content.texts.features.card5.buttonLabelModal
                       }
                       buttonLink={whatsappContactLink}
+                      bgPosition="bg-top"
                     />
                   </div>
                 )
