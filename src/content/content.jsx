@@ -665,7 +665,7 @@ const content = {
       },
       card4: {
         img: featuresImg5,
-        title: "Escola para Cães",
+        title: "Escola para cães",
         subtitle: "Seu cão aprendendo com especialistas.",
         description: (
           <div>
@@ -715,7 +715,7 @@ const content = {
       },
       card5: {
         img: featuresImg7,
-        title: "Hospedagem para Cães",
+        title: "Hospedagem para cães",
         subtitle: "Conforto e segurança enquanto você estiver fora.",
         description: (
           <div>
