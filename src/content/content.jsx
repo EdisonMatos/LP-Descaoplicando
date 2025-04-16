@@ -154,7 +154,7 @@ const content = {
       },
       miniTag: "NOSSA TRAJETÓRIA",
       title: "Quem somos?",
-      subtitle: "Um pouco mais sobre a Descãoplicando Escola e Hotel para Cães",
+      subtitle: "Um pouco mais sobre a Descãoplicando Escola e Hotel para Cães.",
       paragraph: (
         <div>
           A Descãoplicando foi idealizada em 2021 por dois apaixonados por cães:
