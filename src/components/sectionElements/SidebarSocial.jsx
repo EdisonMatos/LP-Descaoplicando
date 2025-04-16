@@ -108,6 +108,7 @@ export default function SidebarSocial() {
                                   duration={500}
                                   offset={-100}
                                   href="#"
+                                  onClick={() => setVisible(false)}
                                 >
                                   {content.texts.navbar.menuItems[0]}
                                 </Link>
@@ -128,6 +129,7 @@ export default function SidebarSocial() {
                                     duration={500}
                                     offset={-70}
                                     href="#"
+                                    onClick={() => setVisible(false)}
                                   >
                                     {content.texts.navbar.menuItems[1]}
                                   </Link>
@@ -147,6 +149,7 @@ export default function SidebarSocial() {
                                     duration={500}
                                     offset={-50}
                                     href="#"
+                                    onClick={() => setVisible(false)}
                                   >
                                     {content.texts.navbar.menuItems[2]}
                                   </Link>
@@ -167,6 +170,7 @@ export default function SidebarSocial() {
                                     duration={500}
                                     offset={-70}
                                     href="#"
+                                    onClick={() => setVisible(false)}
                                   >
                                     {content.texts.navbar.menuItems[3]}
                                   </Link>
