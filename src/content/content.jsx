@@ -774,13 +774,13 @@ const content = {
           stepNumber: 2,
           cardTitle: "Atividades",
           cardDescription:
-            "Atividades físicas são importantíssimas assim como o decanso de qualidade. Entenda como funciona a noção de abrigo para seu cão e proporcione qualidade física nos momentos de atividades ativas e repouso em momentos de atividades passivas.",
+            "Atividades físicas são importantíssimas assim como o descanso de qualidade. Entenda como funciona a noção de abrigo para seu cão e proporcione qualidade física nos momentos de atividades ativas e repouso em momentos de atividades passivas.",
         },
         card3: {
           stepNumber: 3,
           cardTitle: "Comunicação",
           cardDescription:
-            "Entenda como funciona a comunicação da espécie canina, muito importante para estabelecer uma relação respeitosa e acertiva para as duas espécies que estão envolvidas nesse contexto, a nossa e a dos cães.",
+            "Entenda como funciona a comunicação da espécie canina, muito importante para estabelecer uma relação respeitosa e assertiva para as duas espécies que estão envolvidas nesse contexto, a nossa e a dos cães.",
         },
         card4: {
           stepNumber: 4,
