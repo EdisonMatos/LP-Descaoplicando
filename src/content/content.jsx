@@ -619,7 +619,7 @@ const content = {
       },
       card3: {
         img: featuresImg4,
-        title: "Treinamento canino",
+        title: "Treinamento hospedado",
         subtitle: "Um serviço exclusivo da Descãoplicando.",
         description: (
           <div>
