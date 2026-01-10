@@ -1,5 +1,5 @@
-import React from "react";
-import CustomTag from "../util/CustomTag";
+import React from 'react'
+import CustomTag from '../util/CustomTag'
 
 export default function Button({
   icon,
@@ -14,26 +14,28 @@ export default function Button({
   removeTarget,
   removeAnchor,
   tagName,
+  ariaLabel,
 }) {
-  if (size === "small") {
-    sizeFeatures = "rounded-[5px] px-[18px] py-[10px]";
-    textclassName = "text-paragraph3 font-secondFont";
-    gap = "gap-[10px]";
+  if (size === 'small') {
+    sizeFeatures = 'rounded-[5px] px-[18px] py-[10px]'
+    textclassName = 'text-paragraph3 font-secondFont'
+    gap = 'gap-[10px]'
   } else {
-    sizeFeatures = "rounded-[10px] px-[30px] py-[16px]";
-    textclassName = "text-paragraph4 font-secondFont";
-    gap = "gap-[20px]";
+    sizeFeatures = 'rounded-[10px] px-[30px] py-[16px]'
+    textclassName = 'text-paragraph4 font-secondFont'
+    gap = 'gap-[20px]'
   }
 
   return (
     <CustomTag
       tagName={tagName}
-      {...(removeTarget ? {} : { target: "_blank" })}
+      {...(removeTarget ? {} : { target: '_blank' })}
       {...(removeAnchor ? {} : { href: buttonLink })}
       className=""
     >
       <button
         onClick={onClick}
+        aria-label={ariaLabel}
         // Botão alternando cor sem usar o invert
         // className={`flex ${className} ${sizeFeatures} flex-row items-center justify-around transition bg-primary hover:bg-secondary hover:text-primary text-secondary hover:border-solid border-[1px] border-primary hover:border-primary`}
 
@@ -46,5 +48,5 @@ export default function Button({
         </div>
       </button>
     </CustomTag>
-  );
+  )
 }

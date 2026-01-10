@@ -1,6 +1,6 @@
-import PropTypes from "prop-types";
-import MotionDivDownToUp from "../animation/MotionDivDownToUp";
-import Button from "../interactives/Button";
+import PropTypes from 'prop-types'
+import MotionDivDownToUp from '../animation/MotionDivDownToUp'
+import Button from '../interactives/Button'
 
 export default function FeatureImgOnBgCardButton(props) {
   const {
@@ -12,7 +12,7 @@ export default function FeatureImgOnBgCardButton(props) {
     onClick,
     buttonColor,
     bgPosition,
-  } = props;
+  } = props
 
   FeatureImgOnBgCardButton.propTypes = {
     bgImg: PropTypes.any,
@@ -22,7 +22,7 @@ export default function FeatureImgOnBgCardButton(props) {
     buttonLink: PropTypes.string,
     buttonColor: PropTypes.any,
     onClick: PropTypes.func,
-  };
+  }
 
   return (
     <MotionDivDownToUp className="flex  w-full gap-[36px] tablet1:gap-[24px] tablet1:w-[47%] desktop1:w-[30%]">
@@ -40,6 +40,7 @@ export default function FeatureImgOnBgCardButton(props) {
             </p>
             <div>
               <Button
+                ariaLabel="Botão Saiba Mais"
                 removeAnchor={true}
                 label={buttonLabel}
                 buttonLink={buttonLink}
@@ -70,5 +71,5 @@ export default function FeatureImgOnBgCardButton(props) {
         </div>
       </div>
     </MotionDivDownToUp>
-  );
+  )
 }
