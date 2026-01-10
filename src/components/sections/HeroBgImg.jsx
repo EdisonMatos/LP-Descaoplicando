@@ -150,29 +150,22 @@ export default function HeroBgImg() {
           <div className="h-[125px] desktop3:h-[140px]" />
           <div className="flex flex-col mx-auto w-[90%] max-w-[1215px] items-center desktop1:items-start pt-[46px] pb-[50px] desktop1:pt-[120px] desktop1:pb-[120px]">
             <div className=" flex flex-col w-full desktop1:w-[45%] desktop1:mr-[20px] mt-[200px] tablet1:mt-[400px] desktop1:mt-0">
-              <MotionDivDownToUp>
                 <div className="hidden w-auto text-center desktop1:flex desktop1:text-left font-secondFont phone1:text-paragraph4 ">
                   <p className="mb-[16px] bg-black bg-opacity-30 text-lighter rounded-2xl px-[16px] py-[6px] inline-block text-paragraph2">
                     {content.texts.hero.miniTag}
                   </p>
                 </div>
-              </MotionDivDownToUp>
-              <MotionDivDownToUp>
                 <div className="text-lighter flex justify-center tablet1:justify-center desktop1:justify-start font-bold leading-[42px] phone3:leading-[45px] tablet1:leading-[65px] desktop1:leading-[65px] text-center text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title7">
                   <h1 className="[text-shadow:_2px_3px_0_rgb(0_0_0_/_50%)] desktop1:text-left">
                     {content.texts.hero.title}
                   </h1>
                 </div>
-              </MotionDivDownToUp>
-              <MotionDivDownToUp>
                 <div className="flex justify-center text-center desktop1:justify-start phone1:w-full font-secondFont text-paragraph4 phone3:text-paragraph5">
                   <p className="text-lighter mb-[32px] opacity-100 [text-shadow:_2px_2px_2px_rgb(0_0_0_/_50%)] desktop1:text-left">
                     {content.texts.hero.subtitle}
                   </p>
                 </div>
-              </MotionDivDownToUp>
               <div className="w-full phone2:w-full tablet2:w-auto">
-                <MotionDivDownToUp>
                   <div className="flex justify-center w-full desktop1:justify-start">
                     <Button
                       aria-label={content.texts.hero.ctaButtonAriaLabel}
@@ -193,7 +186,6 @@ export default function HeroBgImg() {
                       }
                     />
                   </div>
-                </MotionDivDownToUp>
                 {/* <MotionDivDownToUp className="mt-[40px] w-full ">
                   <a href="#" className="flex justify-center" onClick={onClick}>
                     <p className="text-center text-white underline transition hover:scale-125 [text-shadow:_2px_2px_10px_rgb(0_0_0_/_100%)]">
@@ -202,7 +194,6 @@ export default function HeroBgImg() {
                   </a>
                 </MotionDivDownToUp> */}
               </div>
-              <MotionDivDownToUp>
                 <div className="flex justify-center desktop1:justify-start mt-[32px]">
                   <div className="flex items-center">
                     {content.texts.hero.obsHero.icon}
@@ -211,7 +202,6 @@ export default function HeroBgImg() {
                     </p>
                   </div>
                 </div>
-              </MotionDivDownToUp>
               {/* <div className="">
                 <MotionDivDownToUp>
                   <p className="mb-[20px]">Baixe nosso app:</p>
