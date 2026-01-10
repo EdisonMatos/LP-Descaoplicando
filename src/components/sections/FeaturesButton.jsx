@@ -1,37 +1,37 @@
-import { useState } from "react";
-import FeatureImgOnBgCardButton from "../cards/FeatureImgOnBgCardButton";
-import SectionArea from "../sectionElements/SectionArea";
-import SectionHeader from "../sectionElements/SectionHeader";
-import SectionWrapper from "../sectionElements/SectionWrapper";
-import content from "../../content/content";
-import links from "../../content/links";
-import { Dialog } from "primereact/dialog";
-import "primereact/resources/themes/saga-blue/theme.css";
-import "primereact/resources/primereact.min.css";
-import "primeicons/primeicons.css";
-import ServiceDetailCard from "../cards/ServiceDetailCard";
-import MotionDivDownToUp from "../animation/MotionDivDownToUp";
+import { useState } from 'react'
+import FeatureImgOnBgCardButton from '../cards/FeatureImgOnBgCardButton'
+import SectionArea from '../sectionElements/SectionArea'
+import SectionHeader from '../sectionElements/SectionHeader'
+import SectionWrapper from '../sectionElements/SectionWrapper'
+import content from '../../content/content'
+import links from '../../content/links'
+import { Dialog } from 'primereact/dialog'
+import 'primereact/resources/themes/saga-blue/theme.css'
+import 'primereact/resources/primereact.min.css'
+import 'primeicons/primeicons.css'
+import ServiceDetailCard from '../cards/ServiceDetailCard'
+import MotionDivDownToUp from '../animation/MotionDivDownToUp'
 
-const whatsappContactLink = `` + `${links.ctaWhatsapp}`;
+const whatsappContactLink = `` + `${links.ctaWhatsapp}`
 
 export default function FeaturesButton() {
-  const [visible, setVisible] = useState(false);
-  const [modalTitle, setModalTitle] = useState("");
-  const [modalSubtitle, setModalSubtitle] = useState("");
-  const [modalContent, setModalContent] = useState("");
+  const [visible, setVisible] = useState(false)
+  const [modalTitle, setModalTitle] = useState('')
+  const [modalSubtitle, setModalSubtitle] = useState('')
+  const [modalContent, setModalContent] = useState('')
 
   const onClick = (title, subtitle, content) => {
-    setModalTitle(title);
-    setModalSubtitle(subtitle);
-    setModalContent(content);
-    setVisible(true);
-  };
+    setModalTitle(title)
+    setModalSubtitle(subtitle)
+    setModalContent(content)
+    setVisible(true)
+  }
 
   return (
     <div>
       <SectionArea
         paddingbot={false}
-        id={"service"}
+        id={'service'}
         // className="py-[40px] tablet1:py-[64px] desktop1:py-[96px] desktop1:pb-[0px] bg-quinary"
       >
         <MotionDivDownToUp className="flex justify-center w-full">
@@ -184,12 +184,12 @@ export default function FeaturesButton() {
         header={modalTitle}
         visible={visible}
         onHide={() => setVisible(false)}
-        style={{ width: "50vw" }}
-        breakpoints={{ "40000px": "425px", "450px": "90vw" }}
+        style={{ width: '50vw' }}
+        breakpoints={{ '40000px': '425px', '450px': '90vw' }}
       >
         <h3>{modalSubtitle}</h3>
         <p className="m-0">{modalContent}</p>
       </Dialog>
     </div>
-  );
+  )
 }

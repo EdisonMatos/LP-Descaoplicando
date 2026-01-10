@@ -41,9 +41,9 @@ export default function FeatureImgOnBgCardButton(props) {
             <div>
               <Button
                 ariaLabel="Botão Saiba Mais"
-                removeAnchor={true}
+                removeTarget={true}
+                removeAnchor={false}
                 label={buttonLabel}
-                buttonLink={buttonLink}
                 color={buttonColor}
                 className=""
                 size="small"
