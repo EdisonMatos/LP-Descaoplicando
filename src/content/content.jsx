@@ -154,7 +154,8 @@ const content = {
       },
       miniTag: "NOSSA TRAJETÓRIA",
       title: "Quem somos?",
-      subtitle: "Um pouco mais sobre a Descãoplicando Escola e Hotel para Cães.",
+      subtitle:
+        "Um pouco mais sobre a Descãoplicando Escola e Hotel para Cães.",
       paragraph: (
         <div>
           A Descãoplicando foi idealizada em 2021 por dois apaixonados por cães:
@@ -522,36 +523,168 @@ const content = {
         subtitle: "Diagnóstico e solução para o seu cão.",
         description: (
           <div>
-            Na nossa Escola e Hotel para cães, oferecemos a Consulta
-            Comportamental como o primeiro passo essencial para entender e
-            melhorar o comportamento do seu cão.
-            <br />
-            <br />
-            A Consulta Comportamental nos permite avaliar o comportamento do seu
-            cão e identificar as causas de comportamentos indesejados.
-            Analisamos o histórico de vida e saúde, identificamos problemas como
-            ansiedade e agressividade, e fornecemos orientações importantes
-            sobre alimentação, exercícios, socialização e técnicas de
-            treinamento.
-            <br />
-            <br />
-            Realizamos a consulta comportamental a domicílio para a região do
-            ABCD e algumas regiões de São Paulo, além de oferecê-la online para
-            outras localidades, garantindo praticidade e atendimento onde você
-            estiver.
-            <br />
-            <br />
-            Com base na consulta, desenvolvemos um plano personalizado que pode
-            incluir:
-            <ul>
-              <li>- Treinamento Hospedado</li>
-              <li>- Treinamento a domicílio</li>
-              <li>- Escola com Acompanhamento a Domicílio</li>
-            </ul>
-            <br />
-            Nosso objetivo é garantir que seu cão tenha uma vida
-            comportamentalmente saudável e feliz. Agende sua consulta e dê o
-            primeiro passo para uma convivência mais harmoniosa com o seu cão.
+            <div className="w-full max-w-3xl mx-auto text-slate-700">
+              {/* Header */}
+              <div className="relative p-5 mb-6 overflow-hidden border rounded-2xl bg-gradient-to-br from-amber-50 via-orange-50 to-white border-amber-100 sm:p-7">
+                <div className="absolute w-32 h-32 rounded-full -top-10 -right-10 bg-amber-200/30 blur-2xl" />
+
+                <div className="relative">
+                  <span className="inline-flex items-center gap-2 px-3 py-1 mb-4 text-xs font-semibold border rounded-full bg-white/80 border-amber-200 sm:text-sm text-amber-700">
+                    🐾 Escola para Cães / Day Training
+                  </span>
+
+                  <h2 className="text-2xl font-bold leading-tight sm:text-3xl text-slate-900">
+                    Desenvolvimento, equilíbrio e rotina planejada para o seu
+                    cão
+                  </h2>
+
+                  <p className="mt-4 text-sm leading-relaxed sm:text-base text-slate-600">
+                    Muito mais do que um espaço para o seu cão passar o dia,
+                    somos um centro de desenvolvimento e equilíbrio canino. Não
+                    acreditamos em cães soltos em pátios gerando ansiedade.
+                    Nosso foco é o{" "}
+                    <strong className="text-slate-900">Day Training</strong>:
+                    uma rotina planejada que une socialização segura, estímulo
+                    físico e descanso de alta qualidade.
+                  </p>
+                </div>
+              </div>
+
+              {/* Ciência */}
+              <section className="mb-6">
+                <div className="flex items-start gap-3 mb-4">
+                  <div className="flex items-center justify-center w-10 h-10 text-xl shrink-0 rounded-xl bg-indigo-50">
+                    🧠
+                  </div>
+
+                  <div>
+                    <h3 className="text-lg font-bold sm:text-xl text-slate-900">
+                      A ciência por trás: estímulo e descanso restaurador
+                    </h3>
+                    <p className="mt-2 text-sm leading-relaxed sm:text-base text-slate-600">
+                      Para um cão se manter saudável, o gasto de energia deve
+                      estar alinhado com o equilíbrio do sistema límbico.
+                      Alternamos atividades estruturadas com momentos
+                      obrigatórios de relaxamento.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+                  <div className="p-4 bg-white border shadow-sm rounded-2xl border-slate-200">
+                    <p className="mb-1 text-sm font-bold text-slate-900">
+                      Prevenção da vigilância
+                    </p>
+                    <p className="text-sm leading-relaxed text-slate-600">
+                      Cães que não descansam acumulam altos níveis de cortisol,
+                      conhecido como o hormônio do estresse.
+                    </p>
+                  </div>
+
+                  <div className="p-4 bg-white border shadow-sm rounded-2xl border-slate-200">
+                    <p className="mb-1 text-sm font-bold text-slate-900">
+                      Sono REM protegido
+                    </p>
+                    <p className="text-sm leading-relaxed text-slate-600">
+                      Utilizamos caixas de transporte individuais para garantir
+                      o sono restaurador. O seu cão volta para casa calmo, e não
+                      exausto.
+                    </p>
+                  </div>
+                </div>
+              </section>
+
+              {/* Rotina */}
+              <section className="mb-6">
+                <div className="flex items-start gap-3 mb-4">
+                  <div className="flex items-center justify-center w-10 h-10 text-xl shrink-0 rounded-xl bg-orange-50">
+                    ⚙️
+                  </div>
+
+                  <div>
+                    <h3 className="text-lg font-bold sm:text-xl text-slate-900">
+                      Como funciona a nossa rotina biológica
+                    </h3>
+                    <p className="mt-2 text-sm leading-relaxed sm:text-base text-slate-600">
+                      Cada etapa é pensada para trabalhar comportamento,
+                      energia, foco, descanso e convivência com segurança.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="space-y-3">
+                  {[
+                    {
+                      title: "Adaptação comportamental",
+                      text: "Triagem detalhada para entender o perfil do cão e garantir a segurança do grupo.",
+                    },
+                    {
+                      title: "Caminhada estruturada em matilha",
+                      text: "Nosso pilar de enriquecimento ambiental. Respeita a natureza migratória da espécie através de longas caminhadas em sincronia e neutralidade social.",
+                    },
+                    {
+                      title: "Esteira ergométrica",
+                      text: "Condicionamento físico de alta performance em laboratório, focando na queima de energia controlada e estabilidade mental.",
+                    },
+                    {
+                      title: "Socialização orientada",
+                      text: "Convivência coletiva supervisionada para ensinar o cão a estar em grupo com calmaria, evitando picos de ansiedade.",
+                    },
+                    {
+                      title: "Exercícios de manejo",
+                      text: "Prática diária de permanência no Place Board e uso correto da caixa de transporte para a nossa dinâmica interna.",
+                    },
+                    {
+                      title: "O momento da toca",
+                      text: "Pausas obrigatórias em caixas individuais, respeitando o instinto de toca do cão, zerando o modo de vigilância e controlando o estresse.",
+                    },
+                  ].map((item, index) => (
+                    <div
+                      key={index}
+                      className="p-4 transition bg-white border shadow-sm group rounded-2xl border-slate-200 hover:border-amber-300 hover:shadow-md"
+                    >
+                      <div className="flex gap-3">
+                        <div className="flex items-center justify-center w-6 h-6 mt-1 text-xs font-bold rounded-full shrink-0 bg-amber-100 text-amber-700">
+                          {index + 1}
+                        </div>
+
+                        <div>
+                          <h4 className="text-sm font-bold sm:text-base text-slate-900">
+                            {item.title}
+                          </h4>
+                          <p className="mt-1 text-sm leading-relaxed text-slate-600">
+                            {item.text}
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </section>
+
+              {/* Matrícula */}
+              <section className="p-5 text-white rounded-2xl bg-slate-900 sm:p-6">
+                <div className="flex flex-col gap-4 sm:flex-row sm:items-center">
+                  <div className="flex items-center justify-center w-12 h-12 text-2xl shrink-0 rounded-2xl bg-white/10">
+                    📅
+                  </div>
+
+                  <div>
+                    <h3 className="text-lg font-bold sm:text-xl">
+                      Formatos de matrícula
+                    </h3>
+
+                    <p className="mt-2 text-sm leading-relaxed sm:text-base text-slate-300">
+                      Planos mensais com frequências de{" "}
+                      <strong className="text-white">
+                        2x, 3x ou 4x por semana
+                      </strong>
+                      , adaptados à necessidade do seu cão.
+                    </p>
+                  </div>
+                </div>
+              </section>
+            </div>
           </div>
         ),
         imgModal: featuresImg2,
