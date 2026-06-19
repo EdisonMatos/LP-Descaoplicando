@@ -519,8 +519,384 @@ const content = {
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg2,
-        title: "Consulta comportamental",
-        subtitle: "Diagnóstico e solução para o seu cão.",
+        title: "Consulta Comportamental Domiciliar",
+        subtitle:
+          "Antes de iniciar qualquer protocolo ou escolher um programa de treinamento, nós precisamos entender o cenário real. ",
+        description: (
+          <div>
+            <div className="w-full max-w-3xl mx-auto text-slate-700">
+              {/* Header */}
+              <div className="relative p-5 mb-6 overflow-hidden border rounded-2xl bg-gradient-to-br from-violet-50 via-fuchsia-50 to-white border-violet-100 sm:p-7">
+                <div className="absolute rounded-full -top-10 -right-10 w-36 h-36 bg-violet-200/30 blur-2xl" />
+                <div className="absolute w-32 h-32 rounded-full -bottom-12 -left-12 bg-fuchsia-200/30 blur-2xl" />
+
+                <div className="relative">
+                  <span className="inline-flex items-center gap-2 px-3 py-1 mb-4 text-xs font-semibold border rounded-full bg-white/80 border-violet-200 sm:text-sm text-violet-700">
+                    📋 Consulta Comportamental Domiciliar
+                  </span>
+
+                  <h2 className="text-2xl font-bold leading-tight sm:text-3xl text-slate-900">
+                    O ponto de partida para a transformação do seu cão
+                  </h2>
+
+                  <p className="mt-4 text-sm leading-relaxed sm:text-base text-slate-600">
+                    Antes de iniciar qualquer protocolo ou escolher um programa
+                    de treinamento, nós precisamos entender o cenário real. A
+                    Consulta Comportamental é um diagnóstico completo e
+                    personalizado realizado{" "}
+                    <strong className="text-slate-900">100% a domicílio</strong>
+                    , diretamente onde os desafios do dia a dia acontecem.
+                  </p>
+                </div>
+              </div>
+
+              {/* Consulta */}
+              <section className="mb-6">
+                <div className="grid grid-cols-1 gap-3 mb-4 sm:grid-cols-2">
+                  <div className="p-4 bg-white border shadow-sm rounded-2xl border-slate-200">
+                    <div className="flex items-center justify-center mb-3 text-lg h-9 w-9 rounded-xl bg-violet-100">
+                      🎯
+                    </div>
+
+                    <h3 className="text-sm font-bold sm:text-base text-slate-900">
+                      Objetivo da consulta
+                    </h3>
+
+                    <p className="mt-2 text-sm leading-relaxed text-slate-600">
+                      Mapear a rotina da casa, identificar os gatilhos dos
+                      comportamentos indesejados e alinhar as expectativas da
+                      família com metas reais de evolução e bem-estar.
+                    </p>
+                  </div>
+
+                  <div className="p-4 bg-white border shadow-sm rounded-2xl border-slate-200">
+                    <div className="flex items-center justify-center mb-3 text-lg h-9 w-9 rounded-xl bg-amber-100">
+                      💡
+                    </div>
+
+                    <h3 className="text-sm font-bold sm:text-base text-slate-900">
+                      Planejamento preventivo
+                    </h3>
+
+                    <p className="mt-2 text-sm leading-relaxed text-slate-600">
+                      Também atendemos futuros tutores que planejam adotar ou
+                      comprar um cão, preparando a família antes da chegada do
+                      animal e estruturando o ambiente da forma correta.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="p-5 mb-4 bg-white border shadow-sm rounded-2xl border-slate-200 sm:p-6">
+                  <div className="flex items-start gap-3 mb-4">
+                    <div className="flex items-center justify-center w-10 h-10 text-xl shrink-0 rounded-xl bg-slate-100">
+                      🧠
+                    </div>
+
+                    <div>
+                      <h3 className="text-lg font-bold sm:text-xl text-slate-900">
+                        O que acontece na consulta
+                      </h3>
+
+                      <p className="mt-2 text-sm leading-relaxed sm:text-base text-slate-600">
+                        Realizamos uma anamnese técnica para entender o cão, o
+                        ambiente e a forma como a família se comunica com ele.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="space-y-3">
+                    {[
+                      "Avaliamos o histórico do cão, a dinâmica do ambiente doméstico e como os tutores se comunicam com ele.",
+                      "Entregamos um conteúdo exclusivo sobre a natureza biológica da espécie canina, ajudando a família a entender por que o cão age de determinada maneira.",
+                    ].map((item, index) => (
+                      <div
+                        key={index}
+                        className="flex gap-3 p-3 rounded-xl bg-slate-50"
+                      >
+                        <div className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-violet-100 text-xs font-bold text-violet-700">
+                          {index + 1}
+                        </div>
+
+                        <p className="text-sm leading-relaxed text-slate-600">
+                          {item}
+                        </p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+
+                <div className="p-5 text-white rounded-2xl bg-slate-900 sm:p-6">
+                  <div className="flex flex-col gap-4 sm:flex-row">
+                    <div className="flex items-center justify-center w-12 h-12 text-2xl shrink-0 rounded-2xl bg-white/10">
+                      ✅
+                    </div>
+
+                    <div>
+                      <h3 className="text-lg font-bold sm:text-xl">
+                        Resultado prático
+                      </h3>
+
+                      <p className="mt-2 text-sm leading-relaxed sm:text-base text-slate-300">
+                        Você recebe um direcionamento claro de como reestruturar
+                        a rotina de casa para proporcionar mais qualidade de
+                        vida, equilíbrio mental e bem-estar para o seu cão,
+                        pavimentando o caminho para um comportamento muito
+                        melhor.
+                      </p>
+
+                      <a
+                        href="https://forms.gle/sxcsi2m3R3XCPhu19"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="mt-5 inline-flex w-full sm:w-auto items-center justify-center rounded-xl bg-violet-500 px-5 py-3 text-sm sm:text-base font-bold text-white shadow-lg shadow-violet-500/20 transition hover:bg-violet-600 hover:-translate-y-0.5"
+                      >
+                        👉 Agendar Triagem para Consulta Comportamental
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              {/* Programas */}
+              <section>
+                <div className="p-5 mb-4 bg-white border shadow-sm rounded-2xl border-slate-200 sm:p-6">
+                  <span className="inline-flex items-center gap-2 px-3 py-1 mb-3 text-xs font-semibold border rounded-full bg-violet-50 border-violet-100 sm:text-sm text-violet-700">
+                    🐶 Programas de treinamento
+                  </span>
+
+                  <h3 className="text-xl font-bold leading-tight sm:text-2xl text-slate-900">
+                    Escolha o caminho ideal para a fase e necessidade do seu cão
+                  </h3>
+
+                  <p className="mt-3 text-sm leading-relaxed sm:text-base text-slate-600">
+                    Cada programa foi estruturado para atender um momento
+                    específico da vida do cão, desde os primeiros meses até
+                    protocolos mais intensivos de reestruturação comportamental.
+                  </p>
+                </div>
+
+                <div className="space-y-4">
+                  {[
+                    {
+                      icon: "🏡",
+                      title: "Descãoplicando Puppy Start 360",
+                      subtitle:
+                        "Treinamento domiciliar para filhotes até 6 meses",
+                      objective:
+                        "Construir uma convivência harmônica e prevenir desvios comportamentais comuns da infância canina, como ansiedade, destruição de objetos e erros de banheiro, antes que se tornem problemas crônicos.",
+                      how: "Protocolo realizado integralmente a domicílio, capacitando a família na prática a estabelecer regras, limites saudáveis e uma comunicação clara desde o primeiro dia.",
+                    },
+                    {
+                      icon: "🏫",
+                      title: "Descãoplicando Life Style 360",
+                      subtitle: "Treinamento híbrido",
+                      objective:
+                        "Desenvolver obediência, foco, estabilidade mental e neutralidade social aproveitando a estrutura profissional de Day Training da nossa sede.",
+                      how: "O cão frequenta a nossa Escola para estímulos e treinos dinâmicos com a equipe. O programa inclui consultorias individuais para transferir o aprendizado aos tutores e manter o mesmo padrão de comunicação, manejo e respeito em casa.",
+                    },
+                    {
+                      icon: "🚗",
+                      title: "Descãoplicando Life Style Prime",
+                      subtitle:
+                        "Treinamento domiciliar para cães acima de 6 meses",
+                      objective:
+                        "Correção de problemas comportamentais desafiadores, como puxões na guia, reatividade, agitação excessiva, dificuldades em casa e falta de foco nos tutores.",
+                      how: "Aulas individuais e personalizadas realizadas na residência do cliente e em ambientes públicos reais, como ruas e praças. A família é capacitada a gerenciar a rotina e estabelecer uma comunicação clara no dia a dia.",
+                    },
+                    {
+                      icon: "🏨",
+                      title: "Descãoplicando 360 Board and Train",
+                      subtitle:
+                        "Treinamento hospedado / Imersão comportamental",
+                      objective:
+                        "Indicado para modificação comportamental profunda, reabilitação de fobias ou reatividades severas, ou para tutores que buscam alta performance de obediência em curto prazo.",
+                      how: "O cão reside na nossa estrutura e passa por um cronograma diário de treinos e manejo focado nos objetivos específicos dele. Ao final, realizamos sessões obrigatórias de entrega técnica para capacitar o tutor a manter o manejo em casa.",
+                      support:
+                        "O programa inclui acompanhamento exclusivo de 30 dias via WhatsApp. Durante esse período, caso a equipe técnica avalie necessidade, o cão poderá retornar ao centro para sessões de reciclagem e reforço da estrutura trabalhada.",
+                    },
+                  ].map((program, index) => (
+                    <article
+                      key={index}
+                      className="p-5 transition bg-white border shadow-sm group rounded-2xl border-slate-200 sm:p-6 hover:border-violet-300 hover:shadow-md"
+                    >
+                      <div className="flex flex-col gap-4 sm:flex-row">
+                        <div className="flex items-center justify-center w-12 h-12 text-2xl shrink-0 rounded-2xl bg-violet-50">
+                          {program.icon}
+                        </div>
+
+                        <div className="w-full">
+                          <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
+                            <div>
+                              <span className="text-xs font-bold tracking-wide uppercase text-violet-600">
+                                Programa {index + 1}
+                              </span>
+
+                              <h4 className="mt-1 text-lg font-bold leading-tight sm:text-xl text-slate-900">
+                                {program.title}
+                              </h4>
+
+                              <p className="mt-1 text-sm font-medium text-slate-500">
+                                {program.subtitle}
+                              </p>
+                            </div>
+                          </div>
+
+                          <div className="grid grid-cols-1 gap-3 mt-4 sm:grid-cols-2">
+                            <div className="p-4 rounded-xl bg-slate-50">
+                              <p className="mb-1 text-sm font-bold text-slate-900">
+                                Objetivo do programa
+                              </p>
+
+                              <p className="text-sm leading-relaxed text-slate-600">
+                                {program.objective}
+                              </p>
+                            </div>
+
+                            <div className="p-4 rounded-xl bg-slate-50">
+                              <p className="mb-1 text-sm font-bold text-slate-900">
+                                Como funciona
+                              </p>
+
+                              <p className="text-sm leading-relaxed text-slate-600">
+                                {program.how}
+                              </p>
+                            </div>
+                          </div>
+
+                          {program.support && (
+                            <div className="p-4 mt-3 border rounded-xl border-emerald-100 bg-emerald-50">
+                              <p className="mb-1 text-sm font-bold text-emerald-900">
+                                Garantia e suporte pós-treino
+                              </p>
+
+                              <p className="text-sm leading-relaxed text-emerald-800">
+                                {program.support}
+                              </p>
+                            </div>
+                          )}
+                        </div>
+                      </div>
+                    </article>
+                  ))}
+                </div>
+              </section>
+            </div>
+          </div>
+        ),
+        imgModal: featuresImg2,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
+          >
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba mais",
+        buttonLink: links.ctaWhatsapp,
+      },
+      card2: {
+        img: featuresImg3,
+        title: "Sessões a domicílio",
+        subtitle: "Sessões comportamentais no conforto de casa.",
+        description: (
+          <div>
+            Aqui na nossa Escola e Hotel para cães Descãoplicando, oferecemos um
+            serviço especial de treinamento a domicílio, com o objetivo de
+            proporcionar uma vida comportamental mais saudável para cães e
+            tutores.
+            <br />
+            <br />
+            Nesse programa, destacamos a importância do envolvimento dos tutores
+            em todas as dinâmicas e processos de treinamento.
+            <br />
+            <br />
+            Os tutores também são responsáveis pela evolução do cão, se
+            comprometendo com as dinâmicas abordadas na residência, participando
+            ativamente da modelagem comportamental, além de se dedicarem às
+            atividades de rotina e direcionamentos propostos pelo profissional.
+            <br />
+            <br />
+            As sessões acontecem duas vezes por semana, com duração média de uma
+            hora.
+            <br />
+            <br />
+            Estamos à disposição para ajudar você e seu cão a alcançarem uma
+            convivência harmoniosa e equilibrada!
+          </div>
+        ),
+        imgModal: featuresImg3,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
+          >
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba mais",
+      },
+      card3: {
+        img: featuresImg4,
+        title: "Treinamento hospedado",
+        subtitle: "Um serviço exclusivo da Descãoplicando.",
+        description: (
+          <div>
+            <h2 className="font-bold">TREINAMENTO HOSPEDADO:</h2>
+            <br />
+            Um serviço exclusivo da nossa Escola e Hotel para cães
+            Descãoplicando, que visa proporcionar uma vida comportamental
+            saudável para o seu cão e tranquilidade para você. Durante a
+            hospedagem, o cão precisará de uma caixa de transporte (disponível
+            para aluguel, se necessário), ferramentas específicas indicadas por
+            nós. A alimentação e a quantidade de tacãoes higiênicos conforme o
+            número de diárias também são oferecidas pelos tutores.
+            <br /> <br />
+            É essencial que o cão seja castrado, tenha a carteirinha de
+            vacinação em dia (vacinas V10, raiva e gripe canina) e um exame de
+            fezes negativo para giárdia. Nos últimos cinco dias consecutivos de
+            hospedagem, os tutores devem comparecer à nossa Escola para receber
+            orientações sobre o treinamento realizado. Após o período de
+            hospedagem, oferecemos acompanhamento via WhatsApp por um mês.
+            Durante esse período, pode ser necessário o retorno do cão para
+            ajustes no treinamento. Nosso objetivo é garantir que seu cão tenha
+            uma experiência positiva e que você, como tutor, sinta-se seguro e
+            bem orientado em cada etapa do processo.
+            <br />
+            <br />
+          </div>
+        ),
+        imgModal: featuresImg4,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
+          >
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba mais",
+      },
+      card4: {
+        img: featuresImg5,
+        title: "Escola para Cães / Day Training",
+        subtitle:
+          "Muito mais do que um espaço para o seu cão passar o dia, somos um centro de desenvolvimento e equilíbrio canino. ",
         description: (
           <div>
             <div className="w-full max-w-3xl mx-auto text-slate-700">
@@ -687,149 +1063,6 @@ const content = {
             </div>
           </div>
         ),
-        imgModal: featuresImg2,
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            fill="currentColor"
-            className="bi bi-whatsapp"
-            viewBox="0 0 16 16"
-          >
-            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
-          </svg>
-        ),
-        buttonLabelModal: "Fale Conosco",
-        buttonLabel: "Saiba mais",
-        buttonLink: links.ctaWhatsapp,
-      },
-      card2: {
-        img: featuresImg3,
-        title: "Sessões a domicílio",
-        subtitle: "Sessões comportamentais no conforto de casa.",
-        description: (
-          <div>
-            Aqui na nossa Escola e Hotel para cães Descãoplicando, oferecemos um
-            serviço especial de treinamento a domicílio, com o objetivo de
-            proporcionar uma vida comportamental mais saudável para cães e
-            tutores.
-            <br />
-            <br />
-            Nesse programa, destacamos a importância do envolvimento dos tutores
-            em todas as dinâmicas e processos de treinamento.
-            <br />
-            <br />
-            Os tutores também são responsáveis pela evolução do cão, se
-            comprometendo com as dinâmicas abordadas na residência, participando
-            ativamente da modelagem comportamental, além de se dedicarem às
-            atividades de rotina e direcionamentos propostos pelo profissional.
-            <br />
-            <br />
-            As sessões acontecem duas vezes por semana, com duração média de uma
-            hora.
-            <br />
-            <br />
-            Estamos à disposição para ajudar você e seu cão a alcançarem uma
-            convivência harmoniosa e equilibrada!
-          </div>
-        ),
-        imgModal: featuresImg3,
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            fill="currentColor"
-            className="bi bi-whatsapp"
-            viewBox="0 0 16 16"
-          >
-            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
-          </svg>
-        ),
-        buttonLabelModal: "Fale Conosco",
-        buttonLabel: "Saiba mais",
-      },
-      card3: {
-        img: featuresImg4,
-        title: "Treinamento hospedado",
-        subtitle: "Um serviço exclusivo da Descãoplicando.",
-        description: (
-          <div>
-            <h2 className="font-bold">TREINAMENTO HOSPEDADO:</h2>
-            <br />
-            Um serviço exclusivo da nossa Escola e Hotel para cães
-            Descãoplicando, que visa proporcionar uma vida comportamental
-            saudável para o seu cão e tranquilidade para você. Durante a
-            hospedagem, o cão precisará de uma caixa de transporte (disponível
-            para aluguel, se necessário), ferramentas específicas indicadas por
-            nós. A alimentação e a quantidade de tacãoes higiênicos conforme o
-            número de diárias também são oferecidas pelos tutores.
-            <br /> <br />
-            É essencial que o cão seja castrado, tenha a carteirinha de
-            vacinação em dia (vacinas V10, raiva e gripe canina) e um exame de
-            fezes negativo para giárdia. Nos últimos cinco dias consecutivos de
-            hospedagem, os tutores devem comparecer à nossa Escola para receber
-            orientações sobre o treinamento realizado. Após o período de
-            hospedagem, oferecemos acompanhamento via WhatsApp por um mês.
-            Durante esse período, pode ser necessário o retorno do cão para
-            ajustes no treinamento. Nosso objetivo é garantir que seu cão tenha
-            uma experiência positiva e que você, como tutor, sinta-se seguro e
-            bem orientado em cada etapa do processo.
-            <br />
-            <br />
-          </div>
-        ),
-        imgModal: featuresImg4,
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            fill="currentColor"
-            className="bi bi-whatsapp"
-            viewBox="0 0 16 16"
-          >
-            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
-          </svg>
-        ),
-        buttonLabelModal: "Fale Conosco",
-        buttonLabel: "Saiba mais",
-      },
-      card4: {
-        img: featuresImg5,
-        title: "Escola para cães",
-        subtitle: "Seu cão aprendendo com especialistas.",
-        description: (
-          <div>
-            Na nossa Escola para Cães, proporcionamos um ambiente ideal para
-            equilibrar a vida física e emocional dos cães e tutores. Oferecemos
-            uma rotina estruturada que inclui atividades físicas como caminhada,
-            uso de esteira e atividades sociais, todas adaptadas às necessidades
-            individuais de cada cão.
-            <br />
-            <br />
-            Nossa escola é exclusiva para cães castrados, sendo aceitos machos
-            até 6 meses e após esse período a castração é obrigatória. Fêmeas em
-            período de cio ficam afastadas de todas as atividades. Para a
-            matrícula, é necessário apresentar a carteira de vacinação
-            atualizada com V10, vacina de gripe, raiva e um exame de fezes
-            negativo para giárdia.
-            <br />
-            <br />
-            Os cães devem trazer sua própria ração para o almoço e um tapete
-            higiênico. Todo o restante é oferecido pela escola. Funcionamos de
-            segunda, quarta, quinta e sexta-feira, das 7h às 19h, garantindo que
-            seu cão tenha um dia repleto de exercícios, socialização e
-            relaxamento sob nossa supervisão especializada.
-            <br />
-            <br />
-            Venha fazer parte da nossa Escola para Cães e proporcione ao seu
-            companheiro uma vida mais saudável e equilibrada. Estamos prontos
-            para acolher seu cão e oferecer o melhor cuidado para seu bem-estar.
-            Entre em contato e agende uma visita!
-          </div>
-        ),
         imgModal: featuresImg5,
         icon: (
           <svg
@@ -848,30 +1081,188 @@ const content = {
       },
       card5: {
         img: featuresImg7,
-        title: "Hospedagem para cães",
-        subtitle: "Conforto e segurança enquanto você estiver fora.",
+        title: "Hospedagem Comum (Hotel / Férias)",
+        subtitle:
+          "Vai viajar ou precisa se ausentar? Nossa Hospedagem foi desenhada para tutores que buscam total paz de espírito e a excelência no cuidado.",
         description: (
           <div>
-            Nosso serviço de hospedagem comum oferece uma rotina completa para o
-            seu cão, com exercícios físicos, sociais e momentos de relaxamento
-            participando de todas as atividades com os cães que frequentam o
-            espaço para o serviço de Escola para Cães. Os cães repousam na caixa
-            de transporte, que deve ser trazida pelo tutor ou alugada conosco. A
-            alimentação é fornecida pelos tutores, assim como a quantidade de
-            tacãoes higiênicos necessária para o período de hospedagem.
-            <br />
-            <br />
-            Caso o seu cão não frequente nossa escola, é necessário agendamento
-            prévio para as adaptações necessárias onde o cão frequenta a rotina
-            da Escola para Cães em datas específicas que antecedem o período da
-            hospedagem.
-            <br />
-            <br />
-            Este serviço é exclusivo para cães castrados, com a carteirinha de
-            vacinação em dia (vacina v10, gripe, raiva) e um exame de fezes
-            negativo para giárdia.
-            <br />
-            <br />
+            <div className="w-full max-w-3xl mx-auto text-slate-700">
+              {/* Header */}
+              <div className="relative p-5 mb-6 overflow-hidden border rounded-2xl bg-gradient-to-br from-sky-50 via-cyan-50 to-white border-sky-100 sm:p-7">
+                <div className="absolute rounded-full -top-10 -right-10 w-36 h-36 bg-sky-200/30 blur-2xl" />
+                <div className="absolute w-32 h-32 rounded-full -bottom-12 -left-12 bg-cyan-200/30 blur-2xl" />
+
+                <div className="relative">
+                  <span className="inline-flex items-center gap-2 px-3 py-1 mb-4 text-xs font-semibold border rounded-full bg-white/80 border-sky-200 sm:text-sm text-sky-700">
+                    🏡 Hospedagem Comum / Hotel para Cães
+                  </span>
+
+                  <h2 className="text-2xl font-bold leading-tight sm:text-3xl text-slate-900">
+                    Férias com rotina, cuidado profissional e tranquilidade para
+                    o tutor
+                  </h2>
+
+                  <p className="mt-4 text-sm leading-relaxed sm:text-base text-slate-600">
+                    Vai viajar ou precisa se ausentar? Nossa hospedagem foi
+                    desenhada para tutores que buscam paz de espírito e
+                    excelência no cuidado. Aqui, o seu cão não fica apenas
+                    hospedado; ele desfruta de uma rotina de férias integrada à
+                    dinâmica da nossa Escola, com o manejo de um centro
+                    comportamental profissional.
+                  </p>
+                </div>
+              </div>
+
+              {/* Diferencial */}
+              <section className="mb-6">
+                <div className="flex items-start gap-3 mb-4">
+                  <div className="flex items-center justify-center w-10 h-10 text-xl shrink-0 rounded-xl bg-indigo-50">
+                    🧠
+                  </div>
+
+                  <div>
+                    <h3 className="text-lg font-bold sm:text-xl text-slate-900">
+                      O diferencial do nosso manejo profissional
+                    </h3>
+
+                    <p className="mt-2 text-sm leading-relaxed sm:text-base text-slate-600">
+                      Cães encontram segurança na previsibilidade. Mesmo sendo
+                      uma estadia focada em lazer, o seu cão se beneficia
+                      diretamente da nossa metodologia biológica.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="grid grid-cols-1 gap-3 sm:grid-cols-3">
+                  {[
+                    {
+                      title: "Rotina estruturada",
+                      text: "Horários rigorosos de alimentação, atividades e descanso para manter o cão estável e seguro.",
+                    },
+                    {
+                      title: "Ambiente seguro",
+                      text: "Monitoramento constante por profissionais preparados para ler a linguagem corporal canina.",
+                    },
+                    {
+                      title: "Ferramentas corretas",
+                      text: "Uso de guias unificadas e caixas de transporte adequadas para um manejo correto e sem estresse.",
+                    },
+                  ].map((item, index) => (
+                    <div
+                      key={index}
+                      className="p-4 bg-white border shadow-sm rounded-2xl border-slate-200"
+                    >
+                      <div className="flex items-center justify-center w-8 h-8 mb-3 text-xs font-bold rounded-full bg-sky-100 text-sky-700">
+                        {index + 1}
+                      </div>
+
+                      <h4 className="text-sm font-bold sm:text-base text-slate-900">
+                        {item.title}
+                      </h4>
+
+                      <p className="mt-2 text-sm leading-relaxed text-slate-600">
+                        {item.text}
+                      </p>
+                    </div>
+                  ))}
+                </div>
+              </section>
+
+              {/* Férias */}
+              <section className="mb-6">
+                <div className="flex items-start gap-3 mb-4">
+                  <div className="flex items-center justify-center w-10 h-10 text-xl shrink-0 rounded-xl bg-cyan-50">
+                    ⚙️
+                  </div>
+
+                  <div>
+                    <h3 className="text-lg font-bold sm:text-xl text-slate-900">
+                      Como funcionam as férias do seu cão
+                    </h3>
+
+                    <p className="mt-2 text-sm leading-relaxed sm:text-base text-slate-600">
+                      Durante o dia, o seu cão é inserido em nosso cronograma de
+                      atividades, respeitando rigorosamente os limites e a
+                      segurança individual de cada indivíduo.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="space-y-3">
+                  {[
+                    {
+                      title: "Caminhada estruturada em matilha",
+                      text: "Atividade voltada para cães aptos ao manejo de rua, satisfazendo o instinto migratório natural através de longas caminhadas em grupo e neutralidade social.",
+                    },
+                    {
+                      title: "Esteira ergométrica",
+                      text: "Excelente alternativa para condicionamento físico e queima de energia controlada em nosso laboratório interno, ideal para trabalhar foco e estabilidade mental.",
+                    },
+                    {
+                      title: "Socialização orientada",
+                      text: "Convivência coletiva supervisionada dentro de nossa estrutura para ensinar o cão a interagir com calmaria e neutralidade social.",
+                    },
+                    {
+                      title: "O momento da toca",
+                      text: "Descansos diurnos e pernoite são feitos em caixas de transporte individuais, respeitando o instinto de toca, reduzindo vigilância, controlando o cortisol e favorecendo um sono restaurador.",
+                    },
+                  ].map((item, index) => (
+                    <div
+                      key={index}
+                      className="p-4 transition bg-white border shadow-sm group rounded-2xl border-slate-200 hover:border-sky-300 hover:shadow-md"
+                    >
+                      <div className="flex gap-3">
+                        <div className="flex items-center justify-center w-6 h-6 mt-1 text-xs font-bold rounded-full shrink-0 bg-sky-100 text-sky-700">
+                          {index + 1}
+                        </div>
+
+                        <div>
+                          <h4 className="text-sm font-bold sm:text-base text-slate-900">
+                            {item.title}
+                          </h4>
+
+                          <p className="mt-1 text-sm leading-relaxed text-slate-600">
+                            {item.text}
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </section>
+
+              {/* Nota de segurança */}
+              <section className="p-5 border rounded-2xl border-amber-200 bg-amber-50 sm:p-6">
+                <div className="flex flex-col gap-4 sm:flex-row">
+                  <div className="flex items-center justify-center w-12 h-12 text-2xl shrink-0 rounded-2xl bg-amber-100">
+                    ⚠️
+                  </div>
+
+                  <div>
+                    <h3 className="text-lg font-bold sm:text-xl text-slate-900">
+                      Nota de manejo e segurança
+                    </h3>
+
+                    <p className="mt-2 text-sm leading-relaxed sm:text-base text-slate-700">
+                      Nosso serviço de hospedagem comum não engloba protocolos
+                      de modificação comportamental ou treinamento do zero. Por
+                      isso, as atividades externas, como a caminhada em matilha,
+                      são validadas de acordo com o perfil de cada cão durante a
+                      adaptação.
+                    </p>
+
+                    <p className="mt-3 text-sm leading-relaxed sm:text-base text-slate-700">
+                      Caso o indivíduo não esteja apto para a dinâmica de rua,
+                      sua rotina de estímulos e gasto de energia será realizada
+                      de forma{" "}
+                      <strong className="text-slate-900">
+                        100% interna e segura em nosso laboratório.
+                      </strong>
+                    </p>
+                  </div>
+                </div>
+              </section>
+            </div>
           </div>
         ),
         imgModal: featuresImg7,

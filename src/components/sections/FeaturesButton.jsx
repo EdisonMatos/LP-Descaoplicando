@@ -71,7 +71,7 @@ export default function FeaturesButton() {
                 )
               }
             />
-            <FeatureImgOnBgCardButton
+            {/* <FeatureImgOnBgCardButton
               bgImg={content.texts.features.card2.img}
               title={content.texts.features.card2.title}
               description={content.texts.features.card2.subtitle}
@@ -94,8 +94,8 @@ export default function FeaturesButton() {
                   </div>
                 )
               }
-            />
-            <FeatureImgOnBgCardButton
+            /> */}
+            {/* <FeatureImgOnBgCardButton
               bgImg={content.texts.features.card3.img}
               title={content.texts.features.card3.title}
               description={content.texts.features.card3.subtitle}
@@ -118,7 +118,7 @@ export default function FeaturesButton() {
                   </div>
                 )
               }
-            />
+            /> */}
             <FeatureImgOnBgCardButton
               bgImg={content.texts.features.card5.img}
               title={content.texts.features.card5.title}
