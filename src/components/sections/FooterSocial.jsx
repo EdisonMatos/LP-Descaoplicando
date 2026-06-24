@@ -50,7 +50,7 @@ export default function FooterSocial({ LightMode, addres, obs }) {
                   <FaWhatsapp size={24} />
 
                   <a
-                    href={whatsappContactLink}
+                    href="https://linktr.ee/descaoplicando"
                     target="_blank"
                     className="hover:underline"
                   >

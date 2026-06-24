@@ -3,7 +3,7 @@ import whatsappWebm from "../../assets/importAssets/whatsappGif.webp";
 import Modal from "../util/Modal";
 import links from "../../content/links";
 
-const whatsappContactLink = `` + `${links.ctaWhatsapp}`;
+const whatsappContactLink = `` + `https://linktr.ee/descaoplicando`;
 
 const FloatingWhatsappButton = () => {
   const [isVisible, setIsVisible] = useState(false);

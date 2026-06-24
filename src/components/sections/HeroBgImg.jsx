@@ -20,118 +20,6 @@ export default function HeroBgImg() {
   const [modalContent, setModalContent] = useState("");
   const [modalTitle, setModalTitle] = useState("");
 
-  const onClick = () => {
-    setModalTitle("Passeio de barco");
-    setModalContent(
-      <p>
-        <div class="text-paragraph5 font-bold mb-4">🛳️ ROTEIRO:</div>
-        <ul class="list-disc list-inside space-y-2 text-paragraph3">
-          <li>
-            Prainhas do Pontal do Atalaia: Gruta do Amor e a escadaria (⏱️
-            Desembarque de 40 min)
-          </li>
-          <li>Ilha do Farol (⏱️ Desembarque de 20 min)</li>
-          <li>Fenda de Nossa Senhora (👀 Passagem panorâmica)</li>
-          <li>Perfil do Gorila (👀 Passagem panorâmica)</li>
-          <li>Gruta Azul (👀 Passagem panorâmica)</li>
-          <li>Impacto do Meteorito (👀 Passagem panorâmica)</li>
-          <li>Praia do Forno (⏱️ Parada na enseada por 15 min)</li>
-        </ul>
-
-        <div class="text-paragraph5 font-bold mt-8 mb-4">
-          ℹ️ INFORMAÇÕES GERAIS:
-        </div>
-        <ul class="list-disc list-inside space-y-2 text-paragraph3">
-          <li>Nosso passeio tem duração de 3h30/4h.</li>
-          <li>
-            Nossas embarcações possuem banheiros masculino e feminino, música
-            ambiente 🎶, e bar à bordo 🍹.
-          </li>
-          <li>
-            Conforme a lei 2.348/12nov de 2021, é proibida a entrada de coolers
-            e demais recipientes nas embarcações de turismo que utilizam a
-            Marina dos Pescadores.
-          </li>
-          <li>
-            Temos todos os equipamentos de salvatagem exigidos pela Marinha do
-            Brasil (devidamente higienizados) 🚤.
-          </li>
-          <li>
-            Caso não haja condições de desembarque ou visitação de algum local
-            descrito acima devido às condições do mar, compensaremos o tempo em
-            outro ponto turístico, se possível 🌊.
-          </li>
-          <li>
-            O roteiro pode sofrer alterações sem aviso prévio, com o capitão da
-            embarcação tendo total liberdade para ajustá-lo, visando sempre a
-            segurança e bem-estar de nossos passageiros 🚤😊.
-          </li>
-          <li>
-            👶 Crianças até 3 anos não pagam (todas contam como passageiros).
-          </li>
-          <li>
-            🍢 Serviços de bordo pagos à parte: refrigerantes, cervejas, água de
-            garrafinha, espetinhos, drinks.
-          </li>
-          <li>
-            👜 Solicitamos que os passageiros venham com o mínimo de bolsas, não
-            nos responsabilizamos pelas mesmas.
-          </li>
-        </ul>
-
-        <div class="text-paragraph5 font-bold mt-8 mb-4">⏰ HORÁRIO:</div>
-        <p className="text-paragraph3">
-          Nosso passeio sai a partir das 09:30 (favor confirmar o horário).
-          Pedimos que cheguem para o check-in com 1 hora de antecedência.
-          Lembre-se: a cidade fica sempre lotada e com bastante trânsito 🚦,
-          então saiam cedo para evitar perder o passeio. Caso perca o horário, o
-          valor não é reembolsado. O reembolso só será feito em caso de
-          cancelamento do passeio por motivos climáticos 🌧️.
-        </p>
-
-        <div class="text-paragraph5 font-bold mt-8 mb-4">📞 PARA RESERVAR:</div>
-        <p className="text-paragraph3">
-          A reserva só é feita mediante pagamento.
-        </p>
-        <MotionDivDownToUp>
-          <div className="flex justify-start w-full mt-[16px]">
-            <Button
-              aria-label={content.texts.hero.ctaButtonAriaLabel}
-              label={content.texts.hero.ctaButtonText}
-              buttonLink={whatsappContactLink}
-              className="w-[100%]"
-              icon={
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  fill="currentColor"
-                  className="bi bi-whatsapp"
-                  viewBox="0 0 16 16"
-                >
-                  <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
-                </svg>
-              }
-            />
-          </div>
-        </MotionDivDownToUp>
-
-        <div class="text-red-600 font-bold mt-[15px] mb-4 text-paragraph3">
-          🔴 Cada passageiro deverá pagar uma taxa de embarque de R$ 10,00
-          dentro do píer para acesso à embarcação (pagamento somente em DINHEIRO
-          no local). Menores de 6 anos e maiores de 60 anos não pagam a taxa 🔴.
-        </div>
-
-        <div class="text-red-600 font-bold text-paragraph3">
-          ⚠️ Obs: É proibido entrar com cooler, bolsa térmica ou semelhantes.
-          Garrafas ou copos de vidro também são proibidos. O check-in é feito na
-          agência.
-        </div>
-      </p>
-    );
-    setVisible(true);
-  };
-
   return (
     <div
       className="w-full bg-center bg-no-repeat bg-cover desktop1:bg-right-top font-mainFont"
@@ -150,42 +38,48 @@ export default function HeroBgImg() {
           <div className="h-[125px] desktop3:h-[140px]" />
           <div className="flex flex-col mx-auto w-[90%] max-w-[1215px] items-center desktop1:items-start pt-[46px] pb-[50px] desktop1:pt-[120px] desktop1:pb-[120px]">
             <div className=" flex flex-col w-full desktop1:w-[45%] desktop1:mr-[20px] mt-[200px] tablet1:mt-[400px] desktop1:mt-0">
-                <div className="hidden w-auto text-center desktop1:flex desktop1:text-left font-secondFont phone1:text-paragraph4 ">
-                  <p className="mb-[16px] bg-black bg-opacity-30 text-lighter rounded-2xl px-[16px] py-[6px] inline-block text-paragraph2">
-                    {content.texts.hero.miniTag}
-                  </p>
-                </div>
-                <div className="text-lighter flex justify-center tablet1:justify-center desktop1:justify-start font-bold leading-[42px] phone3:leading-[45px] tablet1:leading-[65px] desktop1:leading-[65px] text-center text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title7">
-                  <h1 className="[text-shadow:_2px_3px_0_rgb(0_0_0_/_50%)] desktop1:text-left">
-                    {content.texts.hero.title}
-                  </h1>
-                </div>
-                <div className="flex justify-center text-center desktop1:justify-start phone1:w-full font-secondFont text-paragraph4 phone3:text-paragraph5">
-                  <p className="text-lighter mb-[32px] opacity-100 [text-shadow:_2px_2px_2px_rgb(0_0_0_/_50%)] desktop1:text-left">
-                    {content.texts.hero.subtitle}
-                  </p>
-                </div>
+              <div className="hidden w-auto text-center desktop1:flex desktop1:text-left font-secondFont phone1:text-paragraph4 ">
+                <p className="mb-[16px] bg-black bg-opacity-30 text-lighter rounded-2xl px-[16px] py-[6px] inline-block text-paragraph2">
+                  {content.texts.hero.miniTag}
+                </p>
+              </div>
+              <div className="text-lighter flex justify-center tablet1:justify-center desktop1:justify-start font-bold leading-[42px] phone3:leading-[45px] tablet1:leading-[65px] desktop1:leading-[65px] text-center text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title7">
+                <h1 className="[text-shadow:_2px_3px_0_rgb(0_0_0_/_50%)] desktop1:text-left">
+                  {content.texts.hero.title}
+                </h1>
+              </div>
+              <div className="flex justify-center text-center desktop1:justify-start phone1:w-full font-secondFont text-paragraph4 phone3:text-paragraph5">
+                <p className="text-lighter mb-[32px] opacity-100 [text-shadow:_2px_2px_2px_rgb(0_0_0_/_50%)] desktop1:text-left">
+                  {content.texts.hero.subtitle}
+                </p>
+              </div>
               <div className="w-full phone2:w-full tablet2:w-auto">
-                  <div className="flex justify-center w-full desktop1:justify-start">
-                    <Button
-                      aria-label={content.texts.hero.ctaButtonAriaLabel}
-                      label={content.texts.hero.ctaButtonText}
-                      buttonLink={whatsappContactLink}
-                      className="w-[100%]"
-                      icon={
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="24"
-                          height="24"
-                          fill="currentColor"
-                          className="bi bi-whatsapp"
-                          viewBox="0 0 16 16"
-                        >
-                          <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
-                        </svg>
-                      }
-                    />
-                  </div>
+                <div className="flex justify-center w-full desktop1:justify-start">
+                  <Button
+                    aria-label={content.texts.hero.ctaButtonAriaLabel}
+                    label={content.texts.hero.ctaButtonText}
+                    buttonLink={whatsappContactLink}
+                    className="w-[100%]"
+                    icon={
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="lucide lucide-circle-arrow-right-icon lucide-circle-arrow-right"
+                      >
+                        <circle cx="12" cy="12" r="10" />
+                        <path d="m12 16 4-4-4-4" />
+                        <path d="M8 12h8" />
+                      </svg>
+                    }
+                  />
+                </div>
                 {/* <MotionDivDownToUp className="mt-[40px] w-full ">
                   <a href="#" className="flex justify-center" onClick={onClick}>
                     <p className="text-center text-white underline transition hover:scale-125 [text-shadow:_2px_2px_10px_rgb(0_0_0_/_100%)]">
@@ -194,14 +88,14 @@ export default function HeroBgImg() {
                   </a>
                 </MotionDivDownToUp> */}
               </div>
-                <div className="flex justify-center desktop1:justify-start mt-[32px]">
-                  <div className="flex items-center">
-                    {content.texts.hero.obsHero.icon}
-                    <p className="text-white opacity-80 ml-[10px] text-center [text-shadow:_2px_2px_2px_rgb(0_0_0_/_50%)]">
-                      {content.texts.hero.obsHero.text}
-                    </p>
-                  </div>
+              <div className="flex justify-center desktop1:justify-start mt-[32px]">
+                <div className="flex items-center">
+                  {content.texts.hero.obsHero.icon}
+                  <p className="text-white opacity-80 ml-[10px] text-center [text-shadow:_2px_2px_2px_rgb(0_0_0_/_50%)]">
+                    {content.texts.hero.obsHero.text}
+                  </p>
                 </div>
+              </div>
               {/* <div className="">
                 <MotionDivDownToUp>
                   <p className="mb-[20px]">Baixe nosso app:</p>

@@ -60,7 +60,24 @@ export default function FeaturesButton() {
                       img={content.texts.features.card1.imgModal}
                       // subtitle={content.texts.features.card1.subtitle}
                       description={content.texts.features.card1.description}
-                      buttonIcon={content.texts.features.card1.icon}
+                      buttonIcon={
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          class="lucide lucide-circle-arrow-right-icon lucide-circle-arrow-right"
+                        >
+                          <circle cx="12" cy="12" r="10" />
+                          <path d="m12 16 4-4-4-4" />
+                          <path d="M8 12h8" />
+                        </svg>
+                      }
                       buttonLabel={
                         content.texts.features.card1.buttonLabelModal
                       }
@@ -133,7 +150,24 @@ export default function FeaturesButton() {
                       img={content.texts.features.card5.imgModal}
                       // subtitle={content.texts.features.card4.subtitle}
                       description={content.texts.features.card5.description}
-                      buttonIcon={content.texts.features.card5.icon}
+                      buttonIcon={
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          class="lucide lucide-circle-arrow-right-icon lucide-circle-arrow-right"
+                        >
+                          <circle cx="12" cy="12" r="10" />
+                          <path d="m12 16 4-4-4-4" />
+                          <path d="M8 12h8" />
+                        </svg>
+                      }
                       buttonLabel={
                         content.texts.features.card5.buttonLabelModal
                       }
@@ -158,7 +192,24 @@ export default function FeaturesButton() {
                       img={content.texts.features.card4.imgModal}
                       // subtitle={content.texts.features.card4.subtitle}
                       description={content.texts.features.card4.description}
-                      buttonIcon={content.texts.features.card4.icon}
+                      buttonIcon={
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          class="lucide lucide-circle-arrow-right-icon lucide-circle-arrow-right"
+                        >
+                          <circle cx="12" cy="12" r="10" />
+                          <path d="m12 16 4-4-4-4" />
+                          <path d="M8 12h8" />
+                        </svg>
+                      }
                       buttonLabel={
                         content.texts.features.card4.buttonLabelModal
                       }

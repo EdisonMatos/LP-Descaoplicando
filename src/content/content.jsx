@@ -645,7 +645,7 @@ const content = {
                       </p>
 
                       <a
-                        href="https://forms.gle/sxcsi2m3R3XCPhu19"
+                        href="https://descao.inovasys.net.br/cadastro?origem=site"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="mt-5 inline-flex w-full sm:w-auto items-center justify-center rounded-xl bg-violet-500 px-5 py-3 text-sm sm:text-base font-bold text-white shadow-lg shadow-violet-500/20 transition hover:bg-violet-600 hover:-translate-y-0.5"

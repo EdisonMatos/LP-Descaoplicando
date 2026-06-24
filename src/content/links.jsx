@@ -1,6 +1,6 @@
 const links = {
   whatsapp: "https://linktr.ee/descaoplicando",
-  ctaWhatsapp: "https://linktr.ee/descaoplicando",
+  ctaWhatsapp: "https://descao.inovasys.net.br/cadastro?origem=site",
   ctaLink: "#",
   socialMedia: {
     instagram:
