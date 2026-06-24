@@ -519,7 +519,7 @@ const content = {
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg2,
-        title: "Consulta Comportamental Domiciliar",
+        title: "Consulta Comportamental e Programas de Treinamento",
         subtitle:
           "Antes de iniciar qualquer protocolo ou escolher um programa de treinamento, nós precisamos entender o cenário real. ",
         description: (
@@ -532,7 +532,7 @@ const content = {
 
                 <div className="relative">
                   <span className="inline-flex items-center gap-2 px-3 py-1 mb-4 text-xs font-semibold border rounded-full bg-white/80 border-violet-200 sm:text-sm text-violet-700">
-                    📋 Consulta Comportamental Domiciliar
+                    📋 Consulta Comportamental e Programas de Treinamento
                   </span>
 
                   <h2 className="text-2xl font-bold leading-tight sm:text-3xl text-slate-900">
